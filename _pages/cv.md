@@ -11,17 +11,33 @@ redirect_from:
 
 Education
 ======
-* M.Tech in Microelectronics and VLSI Design, IISc Bangalore, 2026 (expected)
-* B.Tech. in Electronics and Telecommunication Engineering, IIEST Shibpur, 2024
+* Master of Technology (2024-2026)
+  * Microelectronics and VLSI Design
+  * Indian Institute of Science, Bangalore
+  * CGPA: 9.4 (till 2nd Semester)
+
+* Bachelor of Technology (2020-2024) 
+  * Electronics and Telecommunication Engineering
+  * Indian Institute of Engineering Science and Technology, Shibpur
+  * CGPA: 9.47
 
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages
+  * C
+  * Python
+  * MATLAB
+  * Verilog
+  * Arduino IDE
+
+* Simulators
+  * Xilinx Vivado
+  * Cadence Virtuoso
+  * TCAD
+  * LTSpice
+
+* Hardware
+  * Circuit Implementation on Breadboard
 
 Experience
 ======

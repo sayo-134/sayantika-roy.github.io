@@ -39,12 +39,12 @@ Experience
   
 Projects
 =====
-* Implementing Hopfield Neural Network with AER for Solving Maxcut Problem: March'25 - April'25
+* Hardware Implementation of Hopfield Neural Network with AER for Solving Maxcut Problem: March'25 - April'25
   * Course Project: Neuromorphic AVLSI
   * Designed and Simulated an HNN with AER which solves Maxcut Problem using Verilog.
   * Implemented on FPGA Board.
 
-* RGBImageFilter Implementation and HDMI Display on FPGA: March'25 - April'25
+* RGB Image Filter Implementation and HDMI Display on FPGA: March'25 - April'25
   * Course Project: Digital Systems Design with FPGA
   * Designed an RGB Image filter which uses Median filtering to remove salt and pepper noise, implemented it on PYNQ-Z1 board and displayed the output result on monitor using HDMI protocol.
   * Usedtwodifferent median algorithm- Fast Median and Bit Voting based Median algorithm.

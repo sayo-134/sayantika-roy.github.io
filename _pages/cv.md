@@ -74,6 +74,36 @@ Academic Achievements
   * Ranked 6th in 12th Board Examination, felicitated by Hon. Chief Minister, Govt. of WB
 * WBBSE Board Topper 2018
   * Ranked 9th in 10th Board Examination, felicitated by Hon. Chief Minister, Govt. of WB
+
+Position of Responsibility
+=====
+* IEEE-IISc VLSI Chapter: January'25 - Present
+  * Position: Webmaster
+* Vaidyutak - Annual Tech-fest of Dept. of E&TCE, IIEST Shibpur: March'23 - February'24
+  * Organizer of Alumni-Connect Seminar under Vaidyutak 3.0
+  * Organizer of Vaidyutak 2.0
+  * Event-Head of Bread-Byte under Vaidyutak 2.0
+* JBSPDF: January'22 - December'22
+  * Video Editor and Publisher in JBSPDF, an extended part of JBNSTS Family
+* Robodarshan - Robotic Society of IIEST Shibpur: July'22 - December'22
+  * Content Writer and head
+
+Volunteer Experience
+=====
+* Natun Pata (NGO), Siliguri
+  * Coding Tutor
+  * Taught basic C language to the students from class V to X.
+
+Extra-Curricular Activity
+* Dancing
+  * Kathak
+    * Completed 5th year Diploma
+  * Rabintra Nritya
+    * Completed till 4th year
+  * Odissi
+* Painting
+* Baking
+* Photography
 <!-- Publications
 ======
   <ul>{% for post in site.publications reversed %}

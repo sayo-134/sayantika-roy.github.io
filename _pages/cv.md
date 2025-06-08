@@ -47,7 +47,7 @@ Projects
 * RGB Image Filter Implementation and HDMI Display on FPGA: March'25 - April'25
   * Course Project: Digital Systems Design with FPGA
   * Designed an RGB Image filter which uses Median filtering to remove salt and pepper noise, implemented it on PYNQ-Z1 board and displayed the output result on monitor using HDMI protocol.
-  * Usedtwodifferent median algorithm- Fast Median and Bit Voting based Median algorithm.
+  * Used two different median algorithm- Fast Median and Bit Voting based Median algorithm.
 
 * IMU Sensor Controlled Car
   * Open Day Demonstration Project 2025
@@ -69,7 +69,8 @@ Academic Achievements
 * Gate 2024 rank: EC-226, IN-55
 * Departmental Rank 3rd in Undergraduate
 * Recipient of JBNSTS Senior Scholarship 2020
-  * Selected after an online test based on basic sciences followed by an interview and a scientific creativity test. One of the top ten girls.
+  * Selected after an online test based on basic sciences followed by an interview and a scientific creativity test. 
+  * One of the top ten girls.
 * WBCHSE Board Topper 2020
   * Ranked 6th in 12th Board Examination, felicitated by Hon. Chief Minister, Govt. of WB
 * WBBSE Board Topper 2018
@@ -104,24 +105,3 @@ Extra-Curricular Activity
 * Painting
 * Baking
 * Photography
-<!-- Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
-  
-<!-- Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul> -->
-  
-<!-- Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams -->

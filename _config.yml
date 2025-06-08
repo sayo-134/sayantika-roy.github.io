@@ -13,7 +13,7 @@ title                    : "Sayantika Roy / Home"
 title_separator          : "-"
 name                     : &name "Sayantika Roy"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://sayo-134.github.io/sayantika-roy.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sayo-134/sayantika-roy.github.io"
 
@@ -23,11 +23,11 @@ repository               : "sayo-134/sayantika-roy.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  name             : "Sayantika Roy"
+  pronouns         : "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Bangalore, India"
+  employer         : "Indian Institute of Science, Bangalore"
   uri              : # URL
   email            : "none@example.org" 
 

@@ -14,100 +14,100 @@ Education
 * Master of Technology (2024-2026)
   * Microelectronics and VLSI Design
   * Indian Institute of Science, Bangalore
-  * CGPA: 9.4 (till 2nd Semester)
+  * **CGPA:** 9.4 (till 2nd Semester)
 
 * Bachelor of Technology (2020-2024) 
   * Electronics and Telecommunication Engineering
   * Indian Institute of Engineering Science and Technology, Shibpur
-  * CGPA: 9.47
+  * **CGPA:** 9.47
 
 Skills
 ======
-* Programming Languages
+* **Programming Languages**
   * C
   * Python
   * MATLAB
   * Verilog
   * Arduino IDE
 
-* Simulators
+* **Simulators**
   * Xilinx Vivado
   * Cadence Virtuoso
   * TCAD
   * LTSpice
 
-* Hardware
+* **Hardware**
   * Circuit Implementation on Breadboard
 
 Experience
 ======
-* Research Experience
-  * Undergraduate Major Projet: August'23 - April'24
-    * Project Title: Study of Spectrum Coexistence between GEO Satellite Systems and Cellular Systems
-    * Project Guide: Dr. Tamaghna Acharya, HoD, Dept. of E&TCE
+* **Research Experience**
+  * Undergraduate Major Projet: *August'23 - April'24*
+    * *Project Title:* Study of Spectrum Coexistence between GEO Satellite Systems and Cellular Systems
+    * *Project Guide:* Dr. Tamaghna Acharya, HoD, Dept. of E&TCE
     * Analyzed the interference caused by 5G mobile communication system on the existing GEO satellite system operating in C-band using MATLAB.
     * Provided a solution to maintain the interference level under the permissible level.
-* Work Experience
-  * Inspire Summer Internship 2023 at Tata Steel: May'23 - July'23S
-    * Project Title:  Reliability Enhancement of Equipment through Digitalization with Alerts and Smart Sensors
-    * Project Guide: Mr. Biswanath Nath, Manager, TSCR
-    * Abstract:  Enhancing the reliability of equipment through digitalization, especially using alerts and smart sensors, and using the real-time monitoring system to upgrade the existing predictive maintenance model to a prescriptive model.
+* **Work Experience**
+  * Inspire Summer Internship 2023 at Tata Steel: *May'23 - July'23*
+    * *Project Title:*  Reliability Enhancement of Equipment through Digitalization with Alerts and Smart Sensors
+    * *Project Guide:* Mr. Biswanath Nath, Manager, TSCR
+    * *Abstract:*  Enhancing the reliability of equipment through digitalization, especially using alerts and smart sensors, and using the real-time monitoring system to upgrade the existing predictive maintenance model to a prescriptive model.
   
 Projects
 =====
-* Hardware Implementation of Hopfield Neural Network with AER for Solving Maxcut Problem: March'25 - April'25
-  * Course Project: Neuromorphic AVLSI
+* Hardware Implementation of Hopfield Neural Network with AER for Solving Maxcut Problem: *March'25 - April'25*
+  * *Course Project:* Neuromorphic AVLSI
   * Designed and Simulated an HNN with AER which solves Maxcut Problem using Verilog.
   * Implemented on FPGA Board.
 
-* RGB Image Filter Implementation and HDMI Display on FPGA: March'25 - April'25
-  * Course Project: Digital Systems Design with FPGA
+* RGB Image Filter Implementation and HDMI Display on FPGA: *March'25 - April'25*
+  * *Course Project:* Digital Systems Design with FPGA
   * Designed an RGB Image filter which uses Median filtering to remove salt and pepper noise, implemented it on PYNQ-Z1 board and displayed the output result on monitor using HDMI protocol.
   * Used two different median algorithm- Fast Median and Bit Voting based Median algorithm.
 
-* IMU Sensor Controlled Car
+* IMU Sensor Controlled Car: *February'25*
   * Open Day Demonstration Project 2025
   * Built an ESP32-controlled car that uses an IMU sensor for motion-based control. The L298N motor driver handles the DC motors, while a servo motor steers the car. Tilting the IMU sensor moves the car in the corresponding direction.
 
-* 16 Bit Signed/Unsigned Radix-4 Booth Multiplier with Power Gating: November'24 - December'24
-  * Course Project: Digital VLSI
+* 16 Bit Signed/Unsigned Radix-4 Booth Multiplier with Power Gating: *November'24 - December'24*
+  * *Course Project:* Digital VLSI
   * Simulateda16-bit multiplier using Booth encoding andWallace tree structure using Cadence virtuoso.
   * Designed an area-optimized layout for the circuit.
 
-* Air Quality Monitoring System: September'22-December'22
-  * Project Guide: Dr. Ankita Pramanik, Dept. of E&TCE, IIEST Shibpur
+* Air Quality Monitoring System: *September'22-December'22*
+  * *Project Guide:* Dr. Ankita Pramanik, Dept. of E&TCE, IIEST Shibpur
   * Built an air quality monitoring system using Arduino and gas sensors.
   * Showedthe real-time values in a website built using HTML, CSS & JavaScript.
 
 Academic Achievements
 =====
-* Recipient of Wells Fargo Women in Tech Fellowship at IISc, Bangalore
+* Recipient of **Wells Fargo Women in Tech** Fellowship at IISc, Bangalore
 * Gate 2024 rank: EC-226, IN-55
-* Departmental Rank 3rd in Undergraduate
-* Recipient of JBNSTS Senior Scholarship 2020
+* **Departmental Rank 3rd** in Undergraduate
+* Recipient of **JBNSTS Senior Scholarship 2020**
   * Selected after an online test based on basic sciences followed by an interview and a scientific creativity test. 
   * One of the top ten girls.
 * WBCHSE Board Topper 2020
-  * Ranked 6th in 12th Board Examination, felicitated by Hon. Chief Minister, Govt. of WB
+  * Ranked **6th in 12th Board Examination**, felicitated by Hon. Chief Minister, Govt. of WB
 * WBBSE Board Topper 2018
-  * Ranked 9th in 10th Board Examination, felicitated by Hon. Chief Minister, Govt. of WB
+  * Ranked **9th in 10th Board Examination**, felicitated by Hon. Chief Minister, Govt. of WB
 
 Position of Responsibility
 =====
-* IEEE-IISc VLSI Chapter: January'25 - Present
+* IEEE-IISc VLSI Chapter: *January'25 - Present*
   * Position: Webmaster
-* Vaidyutak - Annual Tech-fest of Dept. of E&TCE, IIEST Shibpur: March'23 - February'24
+* Vaidyutak - Annual Tech-fest of Dept. of E&TCE, IIEST Shibpur: *March'23 - February'24*
   * Organizer of Alumni-Connect Seminar under Vaidyutak 3.0
   * Organizer of Vaidyutak 2.0
   * Event-Head of Bread-Byte under Vaidyutak 2.0
-* JBSPDF: January'22 - December'22
+* JBSPDF: *January'22 - December'22*
   * Video Editor and Publisher in JBSPDF, an extended part of JBNSTS Family
-* Robodarshan - Robotic Society of IIEST Shibpur: July'22 - December'22
+* Robodarshan - Robotic Society of IIEST Shibpur: *July'22 - December'22*
   * Content Writer and head
 
 Volunteer Experience
 =====
-* Natun Pata (NGO), Siliguri
+* Natun Pata (NGO), Siliguri: *October'21 - October'22*
   * Coding Tutor
   * Taught basic C language to the students from class V to X.
 

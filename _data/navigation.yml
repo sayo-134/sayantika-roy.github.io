@@ -25,12 +25,15 @@ main:
     
   # - title: "CV"
   #   url: /cv/
-
-  - title: "About"
-    url: /about/
+   
+  - title: "Education"
+    url: /education/
   
   - title: "Research Interests"
     url: /research_interests/
+
+  - title: "Experience"
+    url: /experience/
 
   - title: "Projects"
     url: /projects/
@@ -40,10 +43,6 @@ main:
 
   - title: "Gallery"
     url: /gallery/
-
-
-  - title: "Contact Me"
-    url: /contact_me/
     
   # - title: "CV"
   #   url: /cv-json/

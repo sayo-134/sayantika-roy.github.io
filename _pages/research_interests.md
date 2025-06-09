@@ -3,8 +3,8 @@ layout: archive
 title: "Research Interests"
 permalink: /research_interests/
 author_profile: true
-redirect_from:
-  - /resume
+# redirect_from:
+#   - /resume
 ---
 
 My research interests lie at the intersection of hardware and emerging computing paradigms, particularly in:

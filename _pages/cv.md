@@ -82,7 +82,7 @@ Projects
 Academic Achievements
 =====
 * Recipient of **Wells Fargo Women in Tech** Fellowship at IISc, Bangalore
-* Gate 2024 rank: EC-226, IN-55
+* **Gate 2024 rank:** EC-226, IN-55
 * **Departmental Rank 3rd** in Undergraduate
 * Recipient of **JBNSTS Senior Scholarship 2020**
   * Selected after an online test based on basic sciences followed by an interview and a scientific creativity test. 

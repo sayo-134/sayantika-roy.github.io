@@ -9,113 +9,186 @@ redirect_from:
 
 {% include base_path %}
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-dOx0x3ZdEWrHgl9zUn35apLfbsfZ5Pa4f+w0mReXzqmeMRBp6qBd8AYe0/SC4y6WlZ8zNUz50rYQq+K8p6JgOQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <style>
-.cv-section {
+:root {
+  --timeline-line: #3498db;
+  --timeline-dot: #3498db;
+  --text-primary: #2c3e50;
+  --text-secondary: #7f8c8d;
+  --text-muted: #34495e;
+  --section-border: #3498db;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --timeline-line: #74b9ff;
+    --timeline-dot: #74b9ff;
+    --text-primary: #ecf0f1;
+    --text-secondary: #bdc3c7;
+    --text-muted: #95a5a6;
+    --section-border: #74b9ff;
+  }
+}
+
+.timeline {
+  position: relative;
+  padding: 2rem 0;
+  margin: 2rem 0;
+  border-left: 3px solid var(--timeline-line);
+}
+.timeline-item {
   margin-bottom: 2rem;
-  padding: 1rem;
-  background-color: #f9f9f9;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  padding-left: 1.5rem;
+  position: relative;
 }
-.cv-title {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #2c3e50;
-  margin-bottom: 0.75em;
-  border-bottom: 2px solid #3498db;
-  padding-bottom: 0.3em;
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -9px;
+  top: 0.25rem;
+  width: 16px;
+  height: 16px;
+  background-color: var(--timeline-dot);
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px var(--timeline-dot);
 }
-.cv-subtitle {
-  font-size: 1.1em;
+.timeline-title {
+  font-size: 1.2rem;
   font-weight: 600;
-  color: #34495e;
-  margin-top: 1em;
+  color: var(--text-primary);
 }
-.cv-item {
-  margin-bottom: 1.2em;
+.timeline-date {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
 }
-.cv-description {
-  margin-left: 1.2em;
-  color: #444;
+.timeline-desc {
+  color: var(--text-muted);
   line-height: 1.5;
+}
+.section-header {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  font-weight: bold;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--section-border);
+  padding-bottom: 0.3rem;
 }
 </style>
 
-<div class="cv-section">
-  <div class="cv-title">🎓 Education</div>
-
-  <div class="cv-item">
-    <div class="cv-subtitle">Indian Institute of Science, Bangalore (2024–2026)</div>
-    <div class="cv-description">M.Tech in Microelectronics and VLSI Design<br><strong>CGPA:</strong> 9.4 (till 2nd Semester)</div>
+<div class="section-header">🎓 Education</div>
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-title">Indian Institute of Science, Bangalore</div>
+    <div class="timeline-date">2024–2026</div>
+    <div class="timeline-desc">M.Tech in Microelectronics and VLSI Design<br><strong>CGPA:</strong> 9.4 (till 2nd Semester)</div>
   </div>
-
-  <div class="cv-item">
-    <div class="cv-subtitle">IIEST Shibpur (2020–2024)</div>
-    <div class="cv-description">B.Tech in Electronics and Telecommunication Engineering<br><strong>CGPA:</strong> 9.47</div>
+  <div class="timeline-item">
+    <div class="timeline-title">IIEST Shibpur</div>
+    <div class="timeline-date">2020–2024</div>
+    <div class="timeline-desc">B.Tech in Electronics and Telecommunication Engineering<br><strong>CGPA:</strong> 9.47</div>
   </div>
-
-  <div class="cv-item">
-    <div class="cv-subtitle">Sri Narasingha Vidyapith (2018–2020)</div>
-    <div class="cv-description">WBCHSE – Higher Secondary Education<br><strong>Percentage:</strong> 98.8%</div>
+  <div class="timeline-item">
+    <div class="timeline-title">Sri Narasingha Vidyapith</div>
+    <div class="timeline-date">2018–2020</div>
+    <div class="timeline-desc">Higher Secondary (WBCHSE) – 98.8%</div>
   </div>
-
-  <div class="cv-item">
-    <div class="cv-subtitle">Bagdogra Balika Vidyalaya (2012–2018)</div>
-    <div class="cv-description">WBBSE – Secondary Education<br><strong>Percentage:</strong> 97.28%</div>
-  </div>
-</div>
-
-<div class="cv-section">
-  <div class="cv-title">🛠️ Skills</div>
-
-  <div class="cv-subtitle">Languages & Tools</div>
-  <div class="cv-description">C, Python, MATLAB, Verilog, Arduino IDE</div>
-
-  <div class="cv-subtitle">Simulation Tools</div>
-  <div class="cv-description">Vivado, Cadence Virtuoso, TCAD, LTSpice</div>
-
-  <div class="cv-subtitle">Hardware Familiarity</div>
-  <div class="cv-description">Breadboard prototyping, sensor integration, real-time interfacing, FPGA deployments</div>
-</div>
-
-<div class="cv-section">
-  <div class="cv-title">💼 Experience</div>
-
-  <div class="cv-subtitle">🔬 Undergraduate Research</div>
-  <div class="cv-description">
-    <strong>Project:</strong> Spectrum Coexistence between GEO Satellites and Cellular Networks<br>
-    <em>Aug '23 – Apr '24 | Guide: Dr. Tamaghna Acharya</em><br>
-    Used MATLAB to analyze the interference of 5G on C-band GEO satellites and proposed mitigation strategies.
-  </div>
-
-  <div class="cv-subtitle">🏭 Industry Internship</div>
-  <div class="cv-description">
-    <strong>Inspire Summer Internship – Tata Steel</strong><br>
-    <em>May '23 – Jul '23 | Guide: Mr. Biswanath Nath</em><br>
-    Worked on digitizing maintenance with smart alerts and sensors, transitioning from predictive to prescriptive models.
+  <div class="timeline-item">
+    <div class="timeline-title">Bagdogra Balika Vidyalaya</div>
+    <div class="timeline-date">2012–2018</div>
+    <div class="timeline-desc">Secondary (WBBSE) – 97.28%</div>
   </div>
 </div>
 
-<div class="cv-section">
-  <div class="cv-title">🏆 Academic Achievements</div>
-  <div class="cv-description">
-    • Wells Fargo Women in Tech Fellow @ IISc<br>
-    • GATE 2024 – EC: 226, IN: 55<br>
-    • Ranked 3rd in B.Tech Department (IIEST Shibpur)<br>
-    • JBNSTS Senior Scholar (Top 10 Girls – 2020)<br>
-    • WBCHSE Topper – Rank 6 (2020)<br>
-    • WBBSE Topper – Rank 9 (2018)
+<div class="section-header">🛠️ Skills</div>
+<ul>
+  <li><strong>Languages & Tools:</strong> C, Python, MATLAB, Verilog, Arduino IDE</li>
+  <li><strong>Simulation Platforms:</strong> Xilinx Vivado, Cadence Virtuoso, TCAD, LTSpice</li>
+  <li><strong>Hardware Experience:</strong> Breadboard prototyping, sensor interfacing, real-time signal testing, FPGA project deployment</li>
+</ul>
+
+<div class="section-header">💼 Experience</div>
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-title">Undergraduate Major Project</div>
+    <div class="timeline-date">Aug 2023 – Apr 2024</div>
+    <div class="timeline-desc">
+      Spectrum Coexistence between GEO Satellites and 5G Systems<br>
+      <em>Guide: Dr. Tamaghna Acharya</em><br>
+      MATLAB simulations to assess and mitigate 5G interference on C-band GEO satellites.
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-title">Inspire Summer Internship – Tata Steel</div>
+    <div class="timeline-date">May 2023 – Jul 2023</div>
+    <div class="timeline-desc">
+      Reliability Enhancement through Digitalization<br>
+      <em>Guide: Mr. Biswanath Nath</em><br>
+      Smart sensor-based alerts for predictive maintenance. Shifted to prescriptive analytics model.
+    </div>
   </div>
 </div>
 
-<div class="cv-section">
-  <div class="cv-title">📌 Positions of Responsibility</div>
-  <div class="cv-description">
-    • Webmaster – IEEE IISc VLSI Chapter (Jan '25 – Present)<br>
-    • Alumni-Connect Organizer – Vaidyutak Tech Fest (2023–24)<br>
-    • Event Head – Bread-Byte, Vaidyutak 2.0<br>
-    • Video Editor – JBSPDF (2022)<br>
-    • Content Lead – Robodarshan Robotics Society (2022)<br>
-    • Coding Instructor – Natun Pata NGO (2021–22)
+<div class="section-header">📚 Academic Activities</div>
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-title">Attended VLSID 2025 Conference</div>
+    <div class="timeline-date">Jan 2025</div>
+    <div class="timeline-desc">Participated in the 38th International Conference on VLSI Design and Embedded Systems. Interacted with researchers, attended keynote talks, and explored future directions in microelectronics and SoC design.</div>
+  </div>
+</div>
+
+<div class="section-header">🏆 Academic Achievements</div>
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-title">Wells Fargo Women in Tech Fellow</div>
+    <div class="timeline-date">2024–Present</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-title">GATE 2024</div>
+    <div class="timeline-desc">EC Rank – 226 | IN Rank – 55</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-title">B.Tech Dept. Rank: 3rd (IIEST Shibpur)</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-title">JBNSTS Senior Scholar</div>
+    <div class="timeline-desc">Top 10 girls selected in 2020 after science aptitude & interview rounds.</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-title">WBCHSE Topper</div>
+    <div class="timeline-desc">Ranked 6th in West Bengal HS Exam 2020</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-title">WBBSE Topper</div>
+    <div class="timeline-desc">Ranked 9th in Madhyamik Exam 2018</div>
+  </div>
+</div>
+
+<div class="section-header">📌 Positions of Responsibility</div>
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-title">Webmaster, IEEE IISc VLSI Chapter</div>
+    <div class="timeline-date">Jan 2025 – Present</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-title">Vaidyutak Tech Fest</div>
+    <div class="timeline-desc">Alumni-Connect Organizer (2023–24), Bread-Byte Event Head (2022–23)</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-title">Video Editor, JBSPDF</div>
+    <div class="timeline-date">2022</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-title">Robodarshan (IIEST Robotics Club)</div>
+    <div class="timeline-desc">Content Lead, 2022</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-title">Natun Pata NGO, Siliguri</div>
+    <div class="timeline-desc">Taught basic C to students from Class V–X</div>
   </div>
 </div>

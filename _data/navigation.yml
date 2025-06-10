@@ -22,24 +22,21 @@ main:
         
   # - title: "Blog Posts"
   #   url: /year-archive/
-    
-  # - title: "CV"
-  #   url: /cv/
    
-  - title: "Education"
-    url: /education/
+  # - title: "Education"
+  #   url: /education/
   
   - title: "Research Interests"
     url: /research_interests/
 
-  - title: "Experience"
-    url: /experience/
+  # - title: "Experience"
+  #   url: /experience/
 
   - title: "Projects"
     url: /projects/
   
-  - title: "Publications"
-    url: /publications/
+  - title: "CV"
+    url: /cv/
 
   - title: "Gallery"
     url: /gallery/

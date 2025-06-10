@@ -25,7 +25,7 @@ Education
   * West Bengal Council of Higher Secondary Education (WBCHSE)
   * **Percentage:** 98.8%
 
-* Bagdogra Balika Vidyalaya (2011-2018)
+* Bagdogra Balika Vidyalaya (2012-2018)
   * West Bengal Board of Secondary Education (WBBSE)
   * **Percentage:** 97.28%
 

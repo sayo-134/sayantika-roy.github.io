@@ -16,9 +16,9 @@ Education
   * Microelectronics and VLSI Design
   * **CGPA:** 9.4 (till 2nd Semester)
 
-*  Indian Institute of Engineering Science and Technology, Shibpur (2020-2024) 
+*  Indian Institute of Engineering Science and Technology, Shibpur (2020-2024)
+  * Bachelor of Technology (B.Tech)
   * Electronics and Telecommunication Engineering
-  * Bachelor of Technology
   * **CGPA:** 9.47
 
 * Sri Narasingha Vidyapith (2018-2020)

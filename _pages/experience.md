@@ -7,6 +7,8 @@ author_profile: true
 #   - /resume
 ---
 
+{% include base_path %}
+
 * **Research Experience**
   * Undergraduate Major Projet: *August'23 - April'24*
     * *Project Title:* Study of Spectrum Coexistence between GEO Satellite Systems and Cellular Systems

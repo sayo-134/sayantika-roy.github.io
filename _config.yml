@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Sayantika Roy / Home"
+title                    : "Sayantika Roy/Home"
 title_separator          : "-"
 name                     : &name "Sayantika Roy"
 description              : &description "M.Tech in Microelectronics and VLSI Design, IISc Bangalore. Currently working in NeuRonICS Lab under Prof. Chetan Singh Thakur. Research interests include Neuromorphic Computing, Quantum Computing, and Hardware for Machine Learning."
@@ -22,7 +22,7 @@ repository               : "sayo-134/sayantika-roy.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "sayantika.png" # path to your avatar image, placed in /images/
+  avatar           : "/images/sayantika.png" # path to your avatar image, placed in /images/
   name             : "Sayantika Roy"
   pronouns         : "she/her"  
   bio              : "Final year M.Tech student in Microelectronics and VLSI Design, currently working in Quantum Computing."

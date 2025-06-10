@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Welcome to my Personal Website"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Welcome! I’m **Sayantika Roy**, currently pursuing my M.Tech in [Microelectronics and VLSI Design](https://microelectronics-eecs.iisc.ac.in/) at the [Indian Institute of Science (IISc), Bangalore](https://iisc.ac.in/).
+I am **Sayantika Roy**, currently pursuing my M.Tech in [Microelectronics and VLSI Design](https://microelectronics-eecs.iisc.ac.in/) at the [Indian Institute of Science (IISc), Bangalore](https://iisc.ac.in/).
 
 I am a part of the [NeuRonICS Lab](https://labs.dese.iisc.ac.in/neuronics/) at the [Department of Electronic Systems Engineering](https://dese.iisc.ac.in/), where I am exploring emerging computing paradigms—particularly **Quantum Computing Hardware**. My research interests span across:
 

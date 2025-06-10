@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Sayantika Roy/Home"
+title                    : "Sayantika Roy"
 title_separator          : "-"
 name                     : &name "Sayantika Roy"
 description              : &description "M.Tech in Microelectronics and VLSI Design, IISc Bangalore. Currently working in NeuRonICS Lab under Prof. Chetan Singh Thakur. Research interests include Neuromorphic Computing, Quantum Computing, and Hardware for Machine Learning."
@@ -58,7 +58,7 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : _sayo_nide_
+  instagram        : # _sayo_nide_
   lastfm           : # Username
   linkedin         : sayantika-roy-867141220
   mastodon         : # URL

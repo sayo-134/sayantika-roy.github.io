@@ -9,8 +9,7 @@ author_profile: true
 
 {% include base_path %}
 
-Education
-======
+
 * Master of Technology (2024-2026)
   * Microelectronics and VLSI Design
   * Indian Institute of Science, Bangalore

@@ -11,11 +11,11 @@ redirect_from:
 
 I am **Sayantika Roy**, currently pursuing my M.Tech in [Microelectronics and VLSI Design](https://microelectronics-eecs.iisc.ac.in/) at [Indian Institute of Science (IISc), Bangalore](https://iisc.ac.in/).
 
-I am a part of [NeuRonICS Lab](https://labs.dese.iisc.ac.in/neuronics/) at [Department of Electronic Systems Engineering](https://dese.iisc.ac.in/), where I am exploring emerging computing paradigms—particularly **Quantum Computing Hardware**.
+I am a part of [NeuRonICS Lab](https://labs.dese.iisc.ac.in/neuronics/) at [Department of Electronic Systems Engineering](https://dese.iisc.ac.in/), where I am exploring emerging computing paradigms, particularly **Quantum Computing Hardware**.
 
 Research Interests
 =====
-My research interests lie at the intersection of hardware and emerging computing paradigms, particularly in:
+My research interests lie at the intersection of hardware and emerging computing paradigms, especially in:
 
 - Quantum computing and qubit control systems  
 - Neuromorphic and non-von Neumann architectures  
@@ -24,5 +24,12 @@ My research interests lie at the intersection of hardware and emerging computing
 
 I enjoy exploring unconventional architectures and system-level design approaches that enable intelligent, energy-efficient computing. I’m passionate about bridging the gap between algorithms and hardware, and contributing to the future of scalable, high-performance computing systems.
 
+Contact Me!
+=====
+I am always open to discussions, collaborations, or just a quick chat about research and technology.
 
-Thanks for visiting! Feel free to explore my [Projects](./projects/) and [CV](./cv/) through the navigation bar.
+- **Email (Personal):** [sayantikaroy217@gmail.com](mailto:sayantikaroy217@gmail.com)  
+- **Email (Academic):** [sayantika@iisc.ac.in](mailto:sayantika@iisc.ac.in)  
+- **LinkedIn:** [Sayantika Roy](https://linkedin.com/in/sayantika-roy-867141220)  
+- **GitHub:** [sayo-134](https://github.com/sayo-134)  
+- **Location:** Bangalore, India

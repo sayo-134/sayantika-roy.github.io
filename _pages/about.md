@@ -43,4 +43,4 @@ I’m just starting out in the world of research and tech, and I’ve got a lot 
 - **GitHub:** [sayo-134](https://github.com/sayo-134)  
 - **Based in:** Bangalore, India
 
-Feel free to reach out — whether it’s to collaborate, share ideas, or just chat about research, projects, or even good coffee spots!
+Feel free to reach out — whether it’s to collaborate, share ideas, or just chat about research, projects, or even an interesting recipe to try!

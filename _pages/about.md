@@ -29,7 +29,7 @@ Beyond Academics
 Outside the world of circuits and qubits, I love exploring the arts and all things creative! Here’s a peek into what keeps me balanced and happy:
 * :dancer: Dancing – Rhythm is in my bones! I learnt Kathak, Rabindra Nritya and Odissi, completed 5th year diploma in Kathak.
 * 🎨 Painting - I love creating detailed **mandalas** - they’re like meditation with a pen!
-* :cookie: Baking - Cakes, cookies, and occasional kitchen experiments 
+* :cookie: Baking - Cakes, cookies, and occasional kitchen experiments :yum:.
 * :camera: Photography - Capturing moments when words fall short. Check out my Flickr account [here](https://www.flickr.com/photos/sayantikaroy217)
 
 

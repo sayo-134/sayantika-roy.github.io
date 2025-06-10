@@ -84,6 +84,8 @@ Position of Responsibility
   * Taught basic C language to the students from class V to X.
 
 Extra-Curricular Activity
+=====
+
 * Dancing
   * Kathak
     * Completed 5th year Diploma

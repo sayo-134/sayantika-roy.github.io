@@ -90,16 +90,3 @@ Position of Responsibility
 * Natun Pata (NGO), Siliguri: *October'21 - October'22*
   * Coding Tutor
   * Taught basic C language to the students from class V to X.
-
-Extra-Curricular Activity
-=====
-
-* Dancing
-  * Kathak
-    * Completed 5th year Diploma
-  * Rabintra Nritya
-    * Completed till 4th year
-  * Odissi
-* Painting
-* Baking
-* Photography

@@ -28,7 +28,7 @@ Beyond Academics
 =====
 When I’m not trying to decode circuits or figure out how quantum things work, I love getting creative. It helps me stay grounded and happy!
 
-* :dancer: **Dancing** – I’ve trained in **Kathak** (completed 5th year diploma), **Rabindra Nritya** (till 4th year), and **Odissi**.
+* :dancer: **Dancing** – I’ve been trained in **Kathak** (completed 5th year diploma), **Rabindra Nritya** (till 4th year), and **Odissi**.
 * 🎨 **Painting** – Especially detailed **mandalas** — it’s super calming, like meditation with a pen.
 * :cookie: **Baking** – From cakes and cookies to random kitchen experiments :yum:
 * :camera: **Photography** – I like capturing small moments that feel worth holding on to. You can check out some of my photos on [Flickr](https://www.flickr.com/photos/sayantikaroy217).

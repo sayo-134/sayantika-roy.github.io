@@ -26,8 +26,8 @@ main:
   # - title: "Education"
   #   url: /education/
   
-  - title: "Research Interests"
-    url: /research_interests/
+  # - title: "Research Interests"
+  #   url: /research_interests/
 
   # - title: "Experience"
   #   url: /experience/

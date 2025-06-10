@@ -22,7 +22,7 @@ repository               : "sayo-134/sayantika-roy.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/profile_sayantika.jpg" # path to your avatar image, placed in /images/
+  avatar           : "images/profile_sayantika.jpg" # path to your avatar image, placed in /images/
   name             : "Sayantika Roy"
   pronouns         : "she/her"  
   bio              : "Final year M.Tech student in Microelectronics and VLSI Design, currently working in Quantum Computing."

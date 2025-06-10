@@ -3,32 +3,71 @@ layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
-# redirect_from:
-#   - /resume
 ---
 
 {% include base_path %}
 
-* Hardware Implementation of Hopfield Neural Network with AER for Solving Maxcut Problem: *March'25 - April'25*
-  * *Course Project:* Neuromorphic AVLSI
-  * Designed and Simulated an HNN with AER which solves Maxcut Problem using Verilog.
-  * Implemented on FPGA Board.
+<style>
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  background-color: #fff;
+}
+.project-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #2c3e50;
+}
+.project-meta {
+  font-size: 0.9em;
+  color: #888;
+  margin-bottom: 8px;
+}
+.project-description {
+  font-size: 1em;
+  color: #333;
+}
+</style>
 
-* RGB Image Filter Implementation and HDMI Display on FPGA: *March'25 - April'25*
-  * *Course Project:* Digital Systems Design with FPGA
-  * Designed an RGB Image filter which uses Median filtering to remove salt and pepper noise, implemented it on PYNQ-Z1 board and displayed the output result on monitor using HDMI protocol.
-  * Used two different median algorithm- Fast Median and Bit Voting based Median algorithm.
+<div class="project-card">
+  <div class="project-title">Hardware Implementation of Hopfield Neural Network with AER for Maxcut Problem</div>
+  <div class="project-meta">Course: Neuromorphic AVLSI | Timeline: Mar '25 – Apr '25</div>
+  <div class="project-description">
+    Designed and simulated a Hopfield Neural Network (HNN) using Verilog to solve the Maxcut problem, incorporating Address Event Representation (AER) for communication. The design was implemented and tested on an FPGA board.
+  </div>
+</div>
 
-* IMU Sensor Controlled Car: *February'25*
-  * Open Day Demonstration Project 2025
-  * Built an ESP32-controlled car that uses an IMU sensor for motion-based control. The L298N motor driver handles the DC motors, while a servo motor steers the car. Tilting the IMU sensor moves the car in the corresponding direction.
+<div class="project-card">
+  <div class="project-title">RGB Image Filter and HDMI Display on FPGA</div>
+  <div class="project-meta">Course: Digital Systems Design with FPGA | Timeline: Mar '25 – Apr '25</div>
+  <div class="project-description">
+    Created an image processing pipeline using two different median filtering algorithms (Fast Median and Bit Voting) to clean salt-and-pepper noise. The processed image was displayed via HDMI output on a PYNQ-Z1 board.
+  </div>
+</div>
 
-* 16 Bit Signed/Unsigned Radix-4 Booth Multiplier with Power Gating: *November'24 - December'24*
-  * *Course Project:* Digital VLSI
-  * Simulateda16-bit multiplier using Booth encoding andWallace tree structure using Cadence virtuoso.
-  * Designed an area-optimized layout for the circuit.
+<div class="project-card">
+  <div class="project-title">IMU Sensor Controlled Car</div>
+  <div class="project-meta">Open Day Demo | Timeline: Feb '25</div>
+  <div class="project-description">
+    Built a gesture-controlled car using an ESP32 and an IMU sensor. The car responded to hand tilts for directional movement, with a servo motor managing steering and an L298N driver powering the DC motors.
+  </div>
+</div>
 
-* Air Quality Monitoring System: *September'22-December'22*
-  * *Project Guide:* Dr. Ankita Pramanik, Dept. of E&TCE, IIEST Shibpur
-  * Built an air quality monitoring system using Arduino and gas sensors.
-  * Showedthe real-time values in a website built using HTML, CSS & JavaScript.
+<div class="project-card">
+  <div class="project-title">16-bit Radix-4 Booth Multiplier with Power Gating</div>
+  <div class="project-meta">Course: Digital VLSI | Timeline: Nov '24 – Dec '24</div>
+  <div class="project-description">
+    Designed a 16-bit signed/unsigned multiplier using Booth encoding and Wallace tree structure. Simulated using Cadence Virtuoso and optimized the layout for minimal area and dynamic power.
+  </div>
+</div>
+
+<div class="project-card">
+  <div class="project-title">Air Quality Monitoring System</div>
+  <div class="project-meta">Undergrad Project | Guide: Dr. Ankita Pramanik, IIEST Shibpur | Timeline: Sep '22 – Dec '22</div>
+  <div class="project-description">
+    Developed a real-time air quality monitor using Arduino and multiple gas sensors. The data was visualized through a web dashboard built with HTML, CSS, and JavaScript.
+  </div>
+</div>

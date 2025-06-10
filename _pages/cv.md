@@ -11,15 +11,23 @@ redirect_from:
 
 Education
 ======
-* Master of Technology (2024-2026)
+* Indian Institute of Science, Bangalore (2024-2026)
+  * Master of Technology (M.Tech)
   * Microelectronics and VLSI Design
-  * Indian Institute of Science, Bangalore
   * **CGPA:** 9.4 (till 2nd Semester)
 
-* Bachelor of Technology (2020-2024) 
+*  Indian Institute of Engineering Science and Technology, Shibpur (2020-2024) 
   * Electronics and Telecommunication Engineering
-  * Indian Institute of Engineering Science and Technology, Shibpur
+  * Bachelor of Technology
   * **CGPA:** 9.47
+
+* Sri Narasingha Vidyapith (2018-2020)
+  * West Bengal Council of Higher Secondary Education (WBCHSE)
+  * **Percentage:** 98.8%
+
+* Bagdogra Balika Vidyalaya (2011-2018)
+  * West Bengal Board of Secondary Education (WBBSE)
+  * **Percentage:** 97.28%
 
 Skills
 ======

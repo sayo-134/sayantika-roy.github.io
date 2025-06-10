@@ -9,38 +9,38 @@ redirect_from:
 
 {% include base_path %}
 
-I am **Sayantika Roy**, currently pursuing my M.Tech in [Microelectronics and VLSI Design](https://microelectronics-eecs.iisc.ac.in/) at [Indian Institute of Science (IISc), Bangalore](https://iisc.ac.in/).
+Hi! I'm **Sayantika Roy**, a second-year M.Tech student in [Microelectronics and VLSI Design](https://microelectronics-eecs.iisc.ac.in/) at [Indian Institute of Science (IISc), Bangalore](https://iisc.ac.in/).
 
-I am a part of [NeuRonICS Lab](https://labs.dese.iisc.ac.in/neuronics/) at [Department of Electronic Systems Engineering](https://dese.iisc.ac.in/), where I am exploring emerging computing paradigms, particularly **Quantum Computing Hardware**.
+I'm currently part of [NeuRonICS Lab](https://labs.dese.iisc.ac.in/neuronics/) in the [Department of Electronic Systems Engineering](https://dese.iisc.ac.in/), where I'm just beginning to explore the exciting world of **Quantum Computing Hardware** and other emerging technologies.
 
 Research Interests
 =====
-My research interests lie at the intersection of hardware and emerging computing paradigms, especially in:
+I'm still figuring out my path, but I'm really curious about:
 
-- Quantum computing and qubit control systems  
-- Neuromorphic and non-von Neumann architectures  
-- Hardware-software co-design for energy-efficient systems  
-- FPGA-based system development
+- Quantum computing and how qubits work at the hardware level  
+- Neuromorphic and alternative computing architectures  
+- Making systems more energy-efficient through smart hardware-software co-design  
+- Building cool stuff on FPGAs
 
-I enjoy exploring unconventional architectures and system-level design approaches that enable intelligent, energy-efficient computing. I’m passionate about bridging the gap between algorithms and hardware, and contributing to the future of scalable, high-performance computing systems.
+Right now, I'm mostly learning by doing — trying out new ideas, asking questions, and getting my hands dirty with tools and hardware. I’m especially excited about how new kinds of computing systems might change the way we solve complex problems.
 
 Beyond Academics
 =====
-Outside the world of circuits and qubits, I love exploring the arts and all things creative! Here’s a peek into what keeps me balanced and happy:
-* :dancer: Dancing – Rhythm is in my bones! I learnt **Kathak**, **Rabindra Nritya** and **Odissi**, completed 5th year diploma in Kathak.
-* 🎨 Painting - I love creating detailed **mandalas** - they’re like meditation with a pen!
-* :cookie: Baking - Cakes, cookies, and occasional kitchen experiments :yum:.
-* :camera: Photography - Capturing moments when words fall short. Check out my Flickr account [here](https://www.flickr.com/photos/sayantikaroy217)
+When I’m not trying to decode circuits or figure out how quantum things work, I love getting creative. It helps me stay grounded and happy!
 
+* :dancer: **Dancing** – I’ve trained in **Kathak** (completed 5th year diploma), **Rabindra Nritya** (till 4th year), and **Odissi**.
+* 🎨 **Painting** – Especially detailed **mandalas** — it’s super calming, like meditation with a pen.
+* :cookie: **Baking** – From cakes and cookies to random kitchen experiments :yum:
+* :camera: **Photography** – I like capturing small moments that feel worth holding on to. You can check out some of my photos on [Flickr](https://www.flickr.com/photos/sayantikaroy217).
 
 Let's Connect!
 =====
-Whether you're into quantum stuff, curious about FPGAs, or just stumbled here by accident — I'm always happy to chat!
+I’m just starting out in the world of research and tech, and I’ve got a lot to learn — but I’m always curious and up for a conversation.
 
-- **Personal Mailbox:** [sayantikaroy217@gmail.com](mailto:sayantikaroy217@gmail.com)  
-- **Academic Mailbox:** [sayantika@iisc.ac.in](mailto:sayantika@iisc.ac.in)  
+- **Personal Email:** [sayantikaroy217@gmail.com](mailto:sayantikaroy217@gmail.com)  
+- **Academic Email:** [sayantika@iisc.ac.in](mailto:sayantika@iisc.ac.in)  
 - **LinkedIn:** [Sayantika Roy](https://linkedin.com/in/sayantika-roy-867141220)  
-- **GitHub Repo Zone:** [sayo-134](https://github.com/sayo-134)  
-- **Currently in:** Bangalore, India
+- **GitHub:** [sayo-134](https://github.com/sayo-134)  
+- **Based in:** Bangalore, India
 
-Feel free to reach out for collabs, questions, or even coffee recommendations!
+Feel free to reach out — whether it’s to collaborate, share ideas, or just chat about research, projects, or even good coffee spots!

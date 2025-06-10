@@ -16,12 +16,6 @@ I am a part of the [NeuRonICS Lab](https://labs.dese.iisc.ac.in/neuronics/) at t
 - Hardware-software co-design for energy-efficient systems  
 - FPGA-based system development
 
-
-### Get in Touch
-
-- Email: sayantikaroy217@gmail.com | sayantika@iisc.ac.in    
-- Location: Bangalore, India
-
 ---
 
-Thanks for visiting! Feel free to explore my [Projects](./portfolio/) and [CV](./cv/) through the navigation bar.
+Thanks for visiting! Feel free to explore my [Projects](./projects/) and [CV](./cv/) through the navigation bar.

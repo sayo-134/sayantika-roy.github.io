@@ -48,7 +48,8 @@ author_profile: true
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
-  border: 1px solid rgba(0, 0, 0, 0.1); /* subtle border */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: inherit;
 }
 
 .project-image {
@@ -57,6 +58,13 @@ author_profile: true
   object-fit: cover;
   border-radius: 8px;
   background-color: #ccc;
+}
+
+/* Ensure text inherits the theme color */
+.project-title,
+.project-description,
+.project-meta {
+  color: inherit;
 }
 
 .project-title {
@@ -72,6 +80,7 @@ author_profile: true
   font-size: 1em;
 }
 </style>
+
 
 <div class="projects-grid">
   <div class="project-tile">

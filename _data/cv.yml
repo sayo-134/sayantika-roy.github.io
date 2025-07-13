@@ -1,14 +1,5 @@
----
-layout: archive
-title: "CV"
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
----
-
-{% include base_path %}
-
+```yaml
+# CV Data Configuration
 - title: Education
   type: time_table
   contents:

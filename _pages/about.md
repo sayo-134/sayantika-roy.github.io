@@ -15,11 +15,10 @@ I'm currently part of [NeuRonICS Lab](https://labs.dese.iisc.ac.in/neuronics/) i
 
 Research Interests
 
-=====
 I'm still figuring out my path, but I'm really curious about:
-
-- Quantum computing and how qubits work at the hardware level  
+  
 - Neuromorphic and alternative computing architectures  
+- Hardware Accelerators for AI and ML
 - Making systems more energy-efficient through smart hardware-software co-design  
 - Building cool stuff on FPGAs
 
@@ -27,7 +26,6 @@ Right now, I'm mostly learning by doing — trying out new ideas, asking questio
 
 Beyond Academics
 
-=====
 When I’m not trying to decode circuits or figure out how quantum things work, I love getting creative. It helps me stay grounded and happy!
 
 * :dancer: **Dancing** – I’ve been trained in **Kathak** (completed 5th year diploma), **Rabindra Nritya** (till 4th year), and **Odissi**.
@@ -37,7 +35,6 @@ When I’m not trying to decode circuits or figure out how quantum things work, 
 
 Let's Connect!
 
-=====
 I’m just starting out in the world of research and tech, and I’ve got a lot to learn — but I’m always curious and up for a conversation.
 
 - **Personal Email:** [sayantikaroy217@gmail.com](mailto:sayantikaroy217@gmail.com)  

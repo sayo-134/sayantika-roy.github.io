@@ -42,9 +42,9 @@ I’m just starting out in the world of research and tech, and I’ve got a lot 
 
 - **Personal Email:** [sayantikaroy217@gmail.com](mailto:sayantikaroy217@gmail.com)  
 - **Academic Email:** [sayantika@iisc.ac.in](mailto:sayantika@iisc.ac.in)  
-- **LinkedIn:** [Sayantika Roy](https://linkedin.com/in/sayantika-roy-867141220)  
+- **LinkedIn:** [Sayantika Roy](https://linkedin.com/in/sayantikaroy)  
 - **GitHub:** [sayo-134](https://github.com/sayo-134)  
 - **Current Location:** Bangalore, Karnataka, India
 - **Based in:** Siliguri, West Bengal, India
 
-Feel free to reach out — whether it’s to collaborate, share ideas, or just chat about research, projects, or even an interesting recipe to try!
+Feel free to reach out, whether it’s to collaborate, share ideas, or just chat about research, projects, or even an interesting recipe to try :smile:!

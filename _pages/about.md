@@ -13,7 +13,7 @@ Hi! I'm **Sayantika Roy**, a second-year M.Tech student in [Microelectronics and
 
 I'm currently part of [NeuRonICS Lab](https://labs.dese.iisc.ac.in/neuronics/) in the [Department of Electronic Systems Engineering](https://dese.iisc.ac.in/), where I'm just beginning to explore the exciting world of **Neuromorphic Computing, Hardware Accelerators** and other emerging technologies.
 
-Research Interests
+## Research Interests
 
 I'm still figuring out my path, but I'm really curious about:
   
@@ -24,16 +24,19 @@ I'm still figuring out my path, but I'm really curious about:
 
 Right now, I'm mostly learning by doing — trying out new ideas, asking questions, and getting my hands dirty with tools and hardware. I’m especially excited about how new kinds of computing systems might change the way we solve complex problems.
 
-Beyond Academics
+## Beyond Academics
 
 When I’m not trying to decode circuits or figure out how quantum things work, I love getting creative. It helps me stay grounded and happy!
 
-* :dancer: **Dancing** – I’ve been trained in **Kathak** (completed 5th year diploma), **Rabindra Nritya** (till 4th year), and **Odissi**.
-* 🎨 **Painting** – Especially detailed **mandalas** — it’s super calming, like meditation with a pen.
-* :cookie: **Baking** – From cakes and cookies to random kitchen experiments :yum:
-* :camera: **Photography** – I like capturing small moments that feel worth holding on to. You can check out some of my photos on [Flickr](https://www.flickr.com/photos/sayantikaroy217).
+- :dancer: **Dancing** – I’ve been trained in **Kathak** (completed 5th year diploma), **Rabindra Nritya** (till 4th year), and **Odissi**.
 
-Let's Connect!
+- 🎨 **Painting** – Especially detailed **mandalas** — it’s super calming, like meditation with a pen.
+
+- :cookie: **Baking** – From cakes and cookies to random kitchen experiments :yum:
+
+- :camera: **Photography** – I like capturing small moments that feel worth holding on to. You can check out some of my photos on [Flickr](https://www.flickr.com/photos/sayantikaroy217).
+
+## Let's Connect'!'
 
 I’m just starting out in the world of research and tech, and I’ve got a lot to learn — but I’m always curious and up for a conversation.
 

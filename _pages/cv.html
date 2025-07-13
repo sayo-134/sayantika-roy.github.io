@@ -9,76 +9,113 @@ redirect_from:
 
 {% include base_path %}
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-dOx0x3ZdEWrHgl9zUn35apLfbsfZ5Pa4f+w0mReXzqmeMRBp6qBd8AYe0/SC4y6WlZ8zNUz50rYQq+K8p6JgOQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sayantika Roy – Academic CV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    :root {
+      --timeline-line: #3498db;
+      --timeline-dot: #3498db;
+      --text-primary: #2c3e50;
+      --text-secondary: #7f8c8d;
+      --text-muted: #34495e;
+      --section-border: #3498db;
+    }
 
-<style>
-:root {
-  --timeline-line: #3498db;
-  --timeline-dot: #3498db;
-  --text-primary: #2c3e50;
-  --text-secondary: #7f8c8d;
-  --text-muted: #34495e;
-  --section-border: #3498db;
-}
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --timeline-line: #74b9ff;
+        --timeline-dot: #74b9ff;
+        --text-primary: #ecf0f1;
+        --text-secondary: #bdc3c7;
+        --text-muted: #95a5a6;
+        --section-border: #74b9ff;
+      }
+    }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --timeline-line: #74b9ff;
-    --timeline-dot: #74b9ff;
-    --text-primary: #ecf0f1;
-    --text-secondary: #bdc3c7;
-    --text-muted: #95a5a6;
-    --section-border: #74b9ff;
-  }
-}
+    body {
+      font-family: sans-serif;
+      margin: 2rem;
+      background-color: transparent;
+      line-height: 1.6;
+    }
 
-.timeline {
-  position: relative;
-  padding: 2rem 0;
-  margin: 2rem 0;
-  border-left: 3px solid var(--timeline-line);
-}
-.timeline-item {
-  margin-bottom: 2rem;
-  padding-left: 1.5rem;
-  position: relative;
-}
-.timeline-item::before {
-  content: "";
-  position: absolute;
-  left: -9px;
-  top: 0.25rem;
-  width: 16px;
-  height: 16px;
-  background-color: var(--timeline-dot);
-  border-radius: 50%;
-  border: 3px solid white;
-  box-shadow: 0 0 0 2px var(--timeline-dot);
-}
-.timeline-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--text-primary);
-}
-.timeline-date {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  margin-bottom: 0.5rem;
-}
-.timeline-desc {
-  color: var(--text-muted);
-  line-height: 1.5;
-}
-.section-header {
-  font-size: 1.5rem;
-  color: var(--text-primary);
-  font-weight: bold;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid var(--section-border);
-  padding-bottom: 0.3rem;
-}
-</style>
+    .section-header {
+      font-size: 1.5rem;
+      color: var(--text-primary);
+      font-weight: bold;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--section-border);
+      padding-bottom: 0.3rem;
+    }
+
+    .timeline {
+      position: relative;
+      padding: 2rem 0;
+      margin: 2rem 0;
+      border-left: 3px solid var(--timeline-line);
+    }
+
+    .timeline-item {
+      margin-bottom: 2rem;
+      padding-left: 1.5rem;
+      position: relative;
+    }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -9px;
+      top: 0.25rem;
+      width: 16px;
+      height: 16px;
+      background-color: var(--timeline-dot);
+      border-radius: 50%;
+      border: 3px solid white;
+      box-shadow: 0 0 0 2px var(--timeline-dot);
+    }
+
+    .timeline-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .timeline-date {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      margin-bottom: 0.5rem;
+    }
+
+    .timeline-desc {
+      color: var(--text-muted);
+    }
+
+    ul {
+      color: var(--text-muted);
+    }
+
+    a {
+      color: var(--timeline-line);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Optional: Add a header or navigation -->
+<p style="text-align:right;">
+  <a href="projects.html" target="_blank">📂 View Projects</a>
+</p>
 
 <div class="section-header">🎓 Education</div>
 <div class="timeline">
@@ -192,3 +229,6 @@ redirect_from:
     <div class="timeline-desc">Taught basic C to students from Class V–X</div>
   </div>
 </div>
+
+</body>
+</html>

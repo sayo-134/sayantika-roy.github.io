@@ -25,7 +25,7 @@ author:
   avatar           : "sayantika.png" # path to your avatar image, placed in /images/
   name             : "Sayantika Roy"
   pronouns         : "she/her"  
-  bio              : "Final year M.Tech student in Microelectronics and VLSI Design, currently working on Hardware for Quantum Computing."
+  bio              : "Final year M.Tech student in Microelectronics and VLSI Design, currently working on Hardware for solving NP-Hard Problem."
   location         : "Bangalore, India"
   employer         : "IISc, Bangalore"
   uri              : # URL

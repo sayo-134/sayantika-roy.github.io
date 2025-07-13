@@ -1,0 +1,117 @@
+---
+layout: archive
+title: "CV"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
+{% include base_path %}
+
+- title: Education
+  type: time_table
+  contents:
+    - title: M.Tech in Microelectronics and VLSI Design
+      institution: Indian Institute of Science (IISc), Bangalore
+      year: 2024 - 2026
+      description:
+        - CGPA: 9.4 (till 2nd Semester)
+    - title: B.Tech in Electronics and Telecommunication Engineering
+      institution: IIEST Shibpur
+      year: 2020 - 2024
+      description:
+        - CGPA: 9.47
+    - title: Higher Secondary (WBCHSE)
+      institution: Sri Narasingha Vidyapith
+      year: 2018 - 2020
+      description:
+        - Percentage: 98.8%
+    - title: Secondary (WBBSE)
+      institution: Bagdogra Balika Vidyalaya
+      year: 2012 - 2018
+      description:
+        - Percentage: 97.28%
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Languages & Tools
+      items:
+        - C, Python, MATLAB, Verilog, Arduino IDE
+    - title: Simulation Platforms
+      items:
+        - Xilinx Vivado, Cadence Virtuoso, TCAD, LTSpice
+    - title: Hardware Experience
+      items:
+        - Breadboard prototyping, sensor interfacing, real-time signal testing, FPGA project deployment
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Undergraduate Major Project
+      institution: IIEST Shibpur
+      year: Aug 2023 - Apr 2024
+      description:
+        - Spectrum Coexistence between GEO Satellites and 5G Systems
+        - Guide: Dr. Tamaghna Acharya
+        - MATLAB simulations to assess and mitigate 5G interference on C-band GEO satellites.
+    - title: Inspire Summer Internship
+      institution: Tata Steel
+      year: May 2023 - Jul 2023
+      description:
+        - Reliability Enhancement through Digitalization
+        - Guide: Mr. Biswanath Nath
+        - Smart sensor-based alerts for predictive maintenance. Shifted to prescriptive analytics model.
+
+- title: Academic Activities
+  type: time_table
+  contents:
+    - title: Attended VLSID 2025 Conference
+      year: Jan 2025
+      description:
+        - Participated in the 38th International Conference on VLSI Design and Embedded Systems.
+        - Interacted with researchers, attended keynote talks, and explored future directions in microelectronics and SoC design.
+
+- title: Academic Achievements
+  type: time_table
+  contents:
+    - year: 2024 - Present
+      items:
+        - Wells Fargo Women in Tech Fellow
+    - year: 2024
+      items:
+        - GATE EC Rank - 226
+        - GATE IN Rank - 55
+    - year: 2024
+      items:
+        - B.Tech Dept. Rank: 3rd (IIEST Shibpur)
+    - year: 2020
+      items:
+        - JBNSTS Senior Scholar - Top 10 girls selected in 2020
+        - WBCHSE Topper - Ranked 6th in West Bengal HS Exam
+    - year: 2018
+      items:
+        - WBBSE Topper - Ranked 9th in Madhyamik Exam
+
+- title: Positions of Responsibility
+  type: time_table
+  contents:
+    - title: Webmaster
+      institution: IEEE IISc VLSI Chapter
+      year: Jan 2025 - Present
+    - title: Vaidyutak Tech Fest
+      year: 2022 - 2024
+      description:
+        - Alumni-Connect Organizer (2023-24)
+        - Bread-Byte Event Head (2022-23)
+    - title: Video Editor
+      institution: JBSPDF
+      year: 2022
+    - title: Content Lead
+      institution: Robodarshan (IIEST Robotics Club)
+      year: 2022
+    - title: Natun Pata NGO, Siliguri
+      description:
+        - Taught basic C to students from Class V-X
+

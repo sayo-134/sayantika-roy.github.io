@@ -1,5 +1,3 @@
-```yaml
-# CV Data Configuration
 - title: Education
   type: time_table
   contents:

@@ -20,13 +20,19 @@ redirect_from:
 
 ## Education
 
-* M.Tech in Microelectronics and VLSI Design, Indian Institute of Science (IISc), Bangalore (2024–2026)  
+* Indian Institute of Science (IISc), Bangalore (2024–2026)
+  * Master of Technology
+  * Microelectronics and VLSI Design
   * CGPA: 9.4 (till 2nd Semester)
-* B.Tech in Electronics and Telecommunication Engineering, IIEST Shibpur (2020–2024)  
+* IIEST Shibpur (2020–2024)
+  * Bachelor of Technology
+  * Electronics and Telecommunication Engineering
   * CGPA: 9.47
-* Higher Secondary (WBCHSE), Sri Narasingha Vidyapith (2018–2020)  
+* Sri Narasingha Vidyapith (2018–2020)
+  * Higher Secondary (WBCHSE)
   * Percentage: 98.8%
-* Secondary (WBBSE), Bagdogra Balika Vidyalaya (2012–2018)  
+* Bagdogra Balika Vidyalaya (2012–2018)
+  * Secondary (WBBSE)
   * Percentage: 97.28%
 
 ## Experience

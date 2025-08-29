@@ -78,7 +78,7 @@ redirected_from:
   <span class="cv-year">2025</span> Webmaster, IEEE-IISc VLSI Chapter
 </div>
 <div class="cv-entry">
-  <span class="cv-year">2023</span> Organizer, *Vaidyutak* (Annual Tech Fest), Department of E&TCE, IIEST Shibpur
+  <span class="cv-year">2023</span> Organizer, <strong>Vaidyutak</strong> (Annual Tech Fest), Department of E&TCE, IIEST Shibpur
 </div>
 <div class="cv-entry">
   <span class="cv-year">2021</span> Coding Tutor, Natun Pata (NGO)
@@ -92,26 +92,26 @@ redirected_from:
   <span class="cv-year">2025</span> Selected as a Student Fellow, VLSID 2025
 </div>
 <div class="cv-entry">
-  <span class="cv-year">2024</span> Selected as **Wells Fargo Women in Tech Scholarship** Recipient
+  <span class="cv-year">2024</span> Selected as <strong>Wells Fargo Women in Tech Scholarship</strong> Recipient
 </div>
 <div class="cv-entry">
   <span class="cv-year">2024</span> Graduated with a departmental rank of 3rd with a CGPA of 9.47, IIEST Shibpur
 </div>
 <div class="cv-entry">
-  <span class="cv-year">2024</span> Secured All India Rank **226** in GATE 2024 (Electronics and Communication)
+  <span class="cv-year">2024</span> Secured All India Rank <strong>226</strong> in GATE 2024 (Electronics and Communication)
 </div>
 <div class="cv-entry">
-  <span class="cv-year">2024</span> Secured All India Rank **55** in GATE 2024 (Instrumentation)
+  <span class="cv-year">2024</span> Secured All India Rank <strong>55</strong> in GATE 2024 (Instrumentation)
 </div>
 <div class="cv-entry">
-  <span class="cv-year">2023</span> Selected for **TATA Steel INSPIRE Summer Internship**
+  <span class="cv-year">2023</span> Selected for <strong>TATA Steel INSPIRE Summer Internship</strong>
 </div>
 <div class="cv-entry">
-  <span class="cv-year">2020</span> Selected as **JBNSTS Senior Scholarship** Recipient (one of the **top 10 girls**)
+  <span class="cv-year">2020</span> Selected as <strong>JBNSTS Senior Scholarship</strong> Recipient (one of the <strong>top 10 girls</strong>)
 </div>
 <div class="cv-entry">
-  <span class="cv-year">2020</span> Received accolades from the Chief Minister of West Bengal for securing **6th Rank** in WBCHSE Board
+  <span class="cv-year">2020</span> Received accolades from the Chief Minister of West Bengal for securing <strong>6th Rank</strong> in WBCHSE Board
 </div>
 <div class="cv-entry">
-  <span class="cv-year">2018</span> Received accolades from the Chief Minister of West Bengal for securing **9th Rank** in WBBSE Board
+  <span class="cv-year">2018</span> Received accolades from the Chief Minister of West Bengal for securing <strong>9th Rank</strong> in WBBSE Board
 </div>

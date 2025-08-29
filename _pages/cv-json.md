@@ -7,38 +7,63 @@ redirected_from:
     /resume/
 ---
 
+<style>
+  /* Light mode colors */
+  .cv-highlight {
+    color: #1e90ff; /* Dodger Blue */
+    font-weight: 500;
+  }
+  .cv-border {
+    border-left: 4px solid #1e90ff;
+    padding-left: 15px;
+    margin-bottom: 1.5em;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .cv-highlight {
+      color: #ffffff; /* White in dark mode */
+    }
+    .cv-border {
+      border-left: 4px solid #ffffff; /* White border */
+    }
+  }
+</style>
+
 ## 🧠 Research Interests
 
-- Hardware Accelerators for Intelligent Systems
-- Spiking Neural Network for Low-power Application
-- Low-power, high-performance digital design
-- Reconfigurable Hardware Architectures
-
+- Hardware Accelerators for Intelligent Systems  
+- Spiking Neural Network for Low-power Application  
+- Low-power, high-performance digital design  
+- Reconfigurable Hardware Architectures  
 
 <h2>🎓 Education</h2>
-<div style="border-left: 4px solid #FF1493; padding-left: 15px; margin-bottom: 1.5em;">
-  <span style="color: #FF1493; font-weight: 500;">2024 – Present</span><br>
+
+<div class="cv-border">
+  <span class="cv-highlight">2024 – Present</span><br>
   <strong>M.Tech, Microelectronics and VLSI Design</strong><br>
   <span><em>Indian Institute of Science (IISc), Bangalore</em></span><br>
   <span>Advisor: Professor Chetan Singh Thakur</span><br>
   <span>Thesis: Reconfigurable and Scalable Higher-order Ising Machine for Combinatorial Optimization Problems</span><br>
   <span>CGPA: 9.41/10</span>
 </div>
-<div style="border-left: 4px solid #FF1493; padding-left: 15px; margin-bottom: 1.5em;">
-  <span style="color: #FF1493; font-weight: 500;">2020 – 2024</span><br>
+
+<div class="cv-border">
+  <span class="cv-highlight">2020 – 2024</span><br>
   <strong>B.Tech, Electronics and Telecommunication Engineering</strong><br>
   <span><em>Indian Institute of Engineering Science and Technology (IIEST), Shibpur</em></span><br>
   <span>Thesis: <em>Spectrum Coexistence between GEO Satellites and 5G Systems</em></span><br>
   <span>CGPA: 9.47/10</span>
 </div>
-<div style="border-left: 4px solid #FF1493; padding-left: 15px; margin-bottom: 1.5em;">
-  <span style="color: #FF1493; font-weight: 500;">2020</span><br>
+
+<div class="cv-border">
+  <span class="cv-highlight">2020</span><br>
   <strong>WBCHSE 2020</strong><br>
   <span><em>Sri Narasingha Vidyapith, Darjeeling, West Bengal</em></span><br>
   <span>Percentage: 98.8%</span>
 </div>
-<div style="border-left: 4px solid #FF1493; padding-left: 15px; margin-bottom: 1.5em;">
-  <span style="color: #FF1493; font-weight: 500;">2018</span><br>
+
+<div class="cv-border">
+  <span class="cv-highlight">2018</span><br>
   <strong>WBBSE 2018</strong><br>
   <span><em>Bagdogra Balika Vidyalaya, Darjeeling, West Bengal</em></span><br>
   <span>Percentage: 97.28%</span>
@@ -63,7 +88,6 @@ redirected_from:
   </tbody>
 </table>
 
-
 ## 🏅 Academic Honors
 
 <table style="border-collapse: collapse;">
@@ -74,7 +98,7 @@ redirected_from:
     </tr>
     <tr>
       <td><strong>2024</strong></td>
-      <td>Selected as <strong>Wells Fargo Women in Tech Scholarship<strong> Recipient.</td>
+      <td>Selected as <strong>Wells Fargo Women in Tech Scholarship</strong> Recipient.</td>
     </tr>
     <tr>
       <td style="padding-right: 20px;"><strong>2024</strong></td>
@@ -90,11 +114,11 @@ redirected_from:
     </tr>
     <tr>
       <td><strong>2023</strong></td>
-      <td>Selected for <strong>TATA Steel INSPIRE Summer Internship</strong>r</td>
+      <td>Selected for <strong>TATA Steel INSPIRE Summer Internship</strong></td>
     </tr>
     <tr>
       <td><strong>2020</strong></td>
-      <td>Selected as <strong>JBNSTS Senior Scholarship<strong> Recipient. One of the <strong>top 10 girls<strong>.</td>
+      <td>Selected as <strong>JBNSTS Senior Scholarship</strong> Recipient. One of the <strong>top 10 girls</strong>.</td>
     </tr>
     <tr>
       <td><strong>2020</strong></td>

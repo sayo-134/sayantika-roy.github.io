@@ -7,201 +7,291 @@ author_profile: true
 
 {% include base_path %}
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Projects – Sayantika Roy</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <style>
-    :root {
-      --timeline-line: #3498db;
-      --timeline-dot: #3498db;
-      --text-primary: #2c3e50;
-      --text-secondary: #7f8c8d;
-      --text-muted: #34495e;
-      --section-border: #3498db;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
-/*     @media (prefers-color-scheme: dark) {
-      :root {
-        --timeline-line: #74b9ff;
-        --timeline-dot: #74b9ff;
-        --text-primary: #ecf0f1;
-        --text-secondary: #bdc3c7;
-        --text-muted: #95a5a6;
-        --section-border: #74b9ff;
-      }
-    } */
-    @media (prefers-color-scheme: dark) {
-  :root {
-    --timeline-line: #74b9ff;
-    --timeline-dot: #74b9ff;
-    --text-primary: #ffffff;   /* pure white */
-    --text-secondary: #dcdcdc; /* lighter gray */
-    --text-muted: #aaaaaa;     /* softer gray */
-    --section-border: #74b9ff;
-  }
+        /* CSS variables for light theme */
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1a202c;
+            --card-bg: #f7fafc;
+            --card-hover-bg: #edf2f7;
+            --border-color: #e2e8f0;
+            --header-color: #2b6cb0;
+            --link-color: #4299e1;
+        }
 
-  body {
-    background-color: #121212; /* optional: darker bg */
-    color: var(--text-primary);
-  }
+        /* CSS variables for dark theme */
+        .dark {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --card-bg: #161b22;
+            --card-hover-bg: #21262d;
+            --border-color: #21262d;
+            --header-color: #58a6ff;
+            --link-color: #58a6ff;
+        }
 
-  .project-title {
-    color: var(--text-primary);
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            transition: background-color 0.3s ease;
+        }
 
+        .project-card {
+            background-color: var(--card-bg);
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.3s ease;
+            cursor: pointer;
+            border-color: var(--border-color);
+        }
 
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+            background-color: var(--card-hover-bg);
+        }
 
+        .markdown-content h1, .markdown-content h2, .markdown-content h3, .markdown-content h4 {
+            color: var(--header-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5em;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
 
+        .markdown-content p {
+            margin-bottom: 1em;
+        }
 
-  }
+        .markdown-content ul, .markdown-content ol {
+            margin-left: 2em;
+            list-style-type: disc;
+        }
 
+        .markdown-content code {
+            background-color: var(--card-hover-bg);
+            padding: 0.2em 0.4em;
+            border-radius: 4px;
+        }
+        
+        /* Apply colors from variables to Tailwind classes */
+        .text-white { color: var(--text-color); }
+        .text-gray-400 { color: var(--text-color); }
+        .text-blue-400 { color: var(--link-color); }
+        .hover\:text-blue-200:hover { color: var(--link-color); }
+        .bg-gray-900 { background-color: var(--card-bg); }
+        .border-gray-800 { border-color: var(--border-color); }
 
-  .project-meta {
-    color: var(--text-secondary);
-  }
+        .project-image {
+            width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+        }
 
-  .project-description {
-    color: var(--text-muted);
-  }
-}
-
-
-
-    body {
-      font-family: sans-serif;
-      margin: 2rem;
-      background-color: transparent;
-      line-height: 1.6;
-    }
-
-
-
-    .section-header {
-      font-size: 1.5rem;
-      color: var(--text-primary);
-      font-weight: bold;
-      margin-bottom: 1rem;
-      border-bottom: 2px solid var(--section-border);
-      padding-bottom: 0.3rem;
-    }
-
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 20px;
-      margin-top: 20px;
-    }
-
-    .project-tile {
-      background-color: transparent;
-      padding: 16px;
-      border-radius: 12px;
-      border: 1px solid rgba(0, 0, 0, 0.1);
-      color: inherit;
-    }
-
-    .project-image {
-      width: 100%;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 8px;
-      background-color: #ccc;
-    }
-
-    .project-title {
-      font-size: 1.1em;
-      font-weight: bold;
-      margin-top: 0.5rem;
-      color: var(--text-primary);
-    }
-
-    .project-meta {
-      font-size: 0.9em;
-      color: var(--text-secondary);
-      margin-bottom: 0.5rem;
-    }
-
-    .project-description {
-      font-size: 1em;
-      color: var(--text-muted);
-    }
-  </style>
+    </style>
 </head>
-<body>
-
-<!-- <div class="section-header">🧪 Projects</div> -->
-<div class="projects-grid">
-  <div class="project-tile">
-<!--     <img class="project-image" src="/images/project_bd/block_diagram_navlsi.png" alt="HNN Architecture"> -->
-    <img class="project-image" src="{{ '/images/project_bd/block_diagram_navlsi.png' | relative_url }}" alt="HNN Architecture">
-    <div class="project-title">Hopfield Neural Network with AER for Maxcut Problem</div>
-    <div class="project-meta">Neuromorphic AVLSI Design | Mar–Apr 2025</div>
-    <div class="project-description">
-      Designed and simulated an HNN in Verilog for solving the Maxcut problem using Address Event Representation (AER) on an FPGA board.
+<body class="p-8 dark">
+    <button id="theme-toggle" class="fixed top-4 right-4 p-2 rounded-full shadow-lg bg-gray-800 text-gray-200 dark:bg-gray-200 dark:text-gray-800 transition-colors">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+        </svg>
+    </button>
+    <div id="project-list" class="container mx-auto max-w-4xl transition-all duration-500">
+        <h1 class="text-4xl font-bold mb-8 text-center" style="color: var(--header-color)">Projects</h1>
+        <!-- Project cards container -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Project cards will be injected here by JavaScript -->
+        </div>
     </div>
-  </div>
 
-  <div class="project-tile">
-<!--     <img class="project-image" src="/images/project_bd/block_diagram_rgb.png" alt="RGB Filtering Architecture"> -->
-    <img class="project-image" src="{{ '/images/project_bd/block_diagram_rgb.png' | relative_url }}" alt="RGB Filtering Architecture">
-    <div class="project-title">RGB Image Filter & HDMI Display</div>
-    <div class="project-meta">Digital Systems Design with FPGA | Mar–Apr 2025</div>
-    <div class="project-description">
-      Implemented median filtering using two algorithms for noise removal and displayed processed images using HDMI output on PYNQ-Z2.
+    <div id="project-detail" class="container mx-auto max-w-4xl hidden transition-all duration-500">
+        <button id="back-button" class="flex items-center text-blue-400 hover:text-blue-200 mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+            </svg>
+            Back to Projects
+        </button>
+        <h1 id="project-title" class="text-4xl font-bold mb-4" style="color: var(--header-color)"></h1>
+        <div id="project-content" class="markdown-content p-6 rounded-lg shadow-lg" style="background-color: var(--card-bg);">
+            <!-- Project content will be injected here by JavaScript -->
+        </div>
     </div>
-  </div>
 
-  <div class="project-tile">
-<!--     <img class="project-image" src="/images/project_bd/block_diagram_spi.png" alt="SPI Architecture"> -->
-    <img class="project-image" src="{{ '/images/project_bd/block_diagram_spi.png' | relative_url }}" alt="SPI Architecture">
-    <div class="project-title">Serial Peripheral Interface (SPI) Controller</div>
-    <div class="project-meta">Digital Systems Design with FPGA | Mar 2025</div>
-    <div class="project-description">
-      Designed and simulated an FSM-based SPI Controller to interface between FPGA and block-RAM (BRAM).
-    </div>
-  </div>
+    <script>
+        const projects = [
+            {
+                id: 'project-1',
+                title: 'Project 1: Real-time Operating System',
+                summary: 'An implementation of a real-time operating system with process scheduling, memory management, and inter-process communication.',
+                cardImage: 'https://placehold.co/400x200/58a6ff/0d1117?text=OS+Project',
+                detailImage: 'https://placehold.co/800x400/58a6ff/0d1117?text=Real-time+OS',
+                content: `
+<h1>Project 1: Real-time Operating System</h1>
+<img src="https://placehold.co/800x400/58a6ff/0d1117?text=Real-time+OS" alt="Real-time OS Diagram" class="project-image">
+<h3>Introduction</h3>
+<p>This project is an implementation of a basic real-time operating system (RTOS) developed from scratch. The primary goal was to understand the fundamental concepts of OS design, including process scheduling, memory management, and synchronization.</p>
+<h3>Key Features</h3>
+<ul>
+    <li><strong>Preemptive Scheduling:</strong> Implemented a preemptive, priority-based scheduler to ensure high-priority tasks are executed in a timely manner.</li>
+    <li><strong>Memory Management:</strong> Designed a simple memory allocator to manage heap memory for dynamic allocation of tasks.</li>
+    <li><strong>Inter-Process Communication (IPC):</strong> Created a messaging system for tasks to communicate with each other safely and reliably.</li>
+</ul>
+<h3>Technologies Used</h3>
+<ul>
+    <li><strong>Language:</strong> C</li>
+    <li><strong>Platform:</strong> ARM Cortex-M4 microcontroller</li>
+    <li><strong>Tools:</strong> Keil uVision, ST-Link debugger</li>
+</ul>
+`
+            },
+            {
+                id: 'project-2',
+                title: 'Project 2: Machine Learning Model',
+                summary: 'Developed and trained a convolutional neural network for image classification using the CIFAR-10 dataset.',
+                cardImage: 'https://placehold.co/400x200/4299e1/0d1117?text=ML+Model',
+                detailImage: 'https://placehold.co/800x400/4299e1/0d1117?text=CNN+Architecture',
+                content: `
+<h1>Project 2: Machine Learning Model</h1>
+<img src="https://placehold.co/800x400/4299e1/0d1117?text=CNN+Architecture" alt="CNN Architecture Diagram" class="project-image">
+<h3>Overview</h3>
+<p>This project involved the creation and training of a Convolutional Neural Network (CNN) to perform image classification on the CIFAR-10 dataset. The model was built using popular deep learning frameworks.</p>
+<h3>Model Architecture</h3>
+<p>The CNN architecture includes:</p>
+<ul>
+    <li>Three convolutional layers with ReLU activation.</li>
+    <li>Max-pooling layers to reduce dimensionality.</li>
+    <li>A fully connected layer for classification.</li>
+    <li>Dropout layers to prevent overfitting.</li>
+</ul>
+<h3>Results</h3>
+<p>The model achieved an accuracy of 85% on the test set. Future work includes exploring more advanced architectures and data augmentation techniques.</p>
+<h3>Technologies Used</h3>
+<ul>
+    <li><strong>Language:</strong> Python</li>
+    <li><strong>Frameworks:</strong> TensorFlow, Keras</li>
+    <li><strong>Libraries:</strong> NumPy, Matplotlib, Scikit-learn</li>
+</ul>
+`
+            },
+            {
+                id: 'project-3',
+                title: 'Project 3: Web-based Game',
+                summary: 'A classic "Flappy Bird" style game built entirely with HTML, CSS, and vanilla JavaScript.',
+                cardImage: 'https://placehold.co/400x200/48bb78/0d1117?text=Flappy+Game',
+                detailImage: 'https://placehold.co/800x400/48bb78/0d1117?text=Game+Screenshot',
+                content: `
+<h1>Project 3: Web-based Game</h1>
+<img src="https://placehold.co/800x400/48bb78/0d1117?text=Game+Screenshot" alt="Game Screenshot" class="project-image">
+<h3>Game Description</h3>
+<p>This is a simple, browser-based game inspired by the classic Flappy Bird. The game features a playable character that the user controls by clicking to avoid obstacles.</p>
+<h3>Implementation Details</h3>
+<p>The game logic is implemented using pure JavaScript for a smooth, responsive feel. The visuals and animations are handled with HTML Canvas and CSS transitions.</p>
+<h3>Features</h3>
+<ul>
+    <li>Responsive design that works on both desktop and mobile devices.</li>
+    <li>Scoring system to track player progress.</li>
+    <li>Collision detection for a challenging gameplay experience.</li>
+</ul>
+<h3>Technologies Used</h3>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript (ES6+)</li>
+</ul>
+`
+            }
+        ];
 
-  <div class="project-tile">
-<!--     <img class="project-image" src="https://via.placeholder.com/120x80" alt="Project Image"> -->
-    <div class="project-title">Synchronous and Asynchronous FIFO Design</div>
-    <div class="project-meta"> Jun 2025</div>
-    <div class="project-description">
-      Designed and simulated a synchronous and an asynchronous FIFO for data transfer between two syncronous and asynchronous frequency domain, respectively.
-    </div>
-  </div>
+        const projectListContainer = document.querySelector('#project-list .grid');
+        const projectDetailView = document.getElementById('project-detail');
+        const projectTitle = document.getElementById('project-title');
+        const projectContent = document.getElementById('project-content');
+        const backButton = document.getElementById('back-button');
 
-  <div class="project-tile">
-<!--     <img class="project-image" src="/images/project_bd/imu_openday.jpeg" alt="With our car"> -->
-    <img class="project-image" src="{{ '/images/project_bd/imu_openday.jpeg' | relative_url }}" alt="With our car">
-    <div class="project-title">IMU Sensor Controlled Car</div>
-    <div class="project-meta">Open Day Demo | Feb 2025</div>
-    <div class="project-description">
-      Gesture-controlled car using ESP32 and IMU. Servo-based steering, L298N motor driver for motion control.
-    </div>
-  </div>
+        // Function to render the list of projects
+        const renderProjects = () => {
+            projectListContainer.innerHTML = '';
+            projects.forEach(project => {
+                const cardHtml = `
+                    <div id="${project.id}" class="project-card p-6 rounded-lg shadow-md border border-gray-800">
+                        <img src="${project.cardImage}" alt="${project.title} Thumbnail" class="project-image">
+                        <h2 class="text-xl font-bold mb-2">${project.title}</h2>
+                        <p class="text-gray-400 mb-4">${project.summary}</p>
+                        <a href="#" class="view-project-btn">View Details &rarr;</a>
+                    </div>
+                `;
+                projectListContainer.innerHTML += cardHtml;
+            });
+            // Add click listeners to the newly created cards
+            document.querySelectorAll('.project-card').forEach(card => {
+                card.addEventListener('click', () => {
+                    const projectId = card.id;
+                    const selectedProject = projects.find(p => p.id === projectId);
+                    if (selectedProject) {
+                        showProjectDetail(selectedProject);
+                    }
+                });
+            });
+        };
 
-  <div class="project-tile">
-<!--     <img class="project-image" src="/images/project_bd/booth_mult.jpeg" alt="Layout of Booth Multiplier"> -->
-    <img class="project-image" src="{{ '/images/project_bd/booth_mult.jpeg' | relative_url }}" alt="Layout of Booth Multiplier">
-    <div class="project-title">16-bit Booth Multiplier with Power Gating</div>
-    <div class="project-meta">Digital VLSI | Nov–Dec 2024</div>
-    <div class="project-description">
-      Booth-encoded pipelined 16-bit multiplier using Wallace tree in Cadence Virtuoso. Optimized for power and area.
-    </div>
-  </div>
+        // Function to show the detailed project view
+        const showProjectDetail = (project) => {
+            projectTitle.textContent = project.title;
+            // The content is already formatted as HTML, so we can set it directly
+            projectContent.innerHTML = project.content;
+            document.getElementById('project-list').classList.add('hidden');
+            projectDetailView.classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
 
-  <div class="project-tile">
-<!--     <img class="project-image" src="https://via.placeholder.com/120x80" alt="Project Image"> -->
-    <div class="project-title">Air Quality Monitoring System</div>
-    <div class="project-meta">Undergrad Project | Sep–Dec 2022</div>
-    <div class="project-description">
-      Arduino-based gas sensor system with real-time dashboard built using HTML, CSS, and JavaScript.
-    </div>
-  </div>
-</div>
+        // Add event listener for the back button
+        backButton.addEventListener('click', () => {
+            projectDetailView.classList.add('hidden');
+            document.getElementById('project-list').classList.remove('hidden');
+        });
 
+        // Theme toggle logic
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+        // Set initial theme based on system preference or localStorage
+        const currentTheme = localStorage.getItem('theme');
+        if (currentTheme) {
+            body.classList.add(currentTheme);
+        } else if (prefersDarkScheme.matches) {
+            body.classList.add('dark');
+        } else {
+            body.classList.add('light');
+        }
+
+        themeToggle.addEventListener('click', () => {
+            if (body.classList.contains('light')) {
+                body.classList.remove('light');
+                body.classList.add('dark');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                body.classList.remove('dark');
+                body.classList.add('light');
+                localStorage.setItem('theme', 'light');
+            }
+        });
+
+
+        // Initial render
+        renderProjects();
+    </script>
 </body>
 </html>

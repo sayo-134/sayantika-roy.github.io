@@ -1,198 +1,134 @@
 ---
-layout: archive
-title: "Projects"
-permalink: /projects/
+title: "CV"
+permalink: /cv-json/
 author_profile: true
+redirected_from:
+    /cv/
+    /resume/
 ---
 
-{% include base_path %}
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Projects – Sayantika Roy</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <style>
-    :root {
-      --timeline-line: #3498db;
-      --timeline-dot: #3498db;
-      --text-primary: #2c3e50;
-      --text-secondary: #7f8c8d;
-      --text-muted: #34495e;
-      --section-border: #3498db;
-    }
-
-/*     @media (prefers-color-scheme: dark) {
-      :root {
-        --timeline-line: #74b9ff;
-        --timeline-dot: #74b9ff;
-        --text-primary: #ecf0f1;
-        --text-secondary: #bdc3c7;
-        --text-muted: #95a5a6;
-        --section-border: #74b9ff;
-      }
-    } */
-    @media (prefers-color-scheme: dark) {
-  :root {
-    --timeline-line: #74b9ff;
-    --timeline-dot: #74b9ff;
-    --text-primary: #ffffff;   /* pure white */
-    --text-secondary: #dcdcdc; /* lighter gray */
-    --text-muted: #aaaaaa;     /* softer gray */
-    --section-border: #74b9ff;
+<style>
+  /* Light mode colors */
+  .cv-highlight {
+    color: #1e90ff; /* Dodger Blue */
+    font-weight: 500;
+  }
+  .cv-border {
+    border-left: 4px solid #1e90ff;
+    padding-left: 15px;
+    margin-bottom: 1.5em;
   }
 
-  body {
-    background-color: #121212; /* optional: darker bg */
-    color: var(--text-primary);
+  @media (prefers-color-scheme: dark) {
+    .cv-highlight {
+      color: #ffffff; /* White in dark mode */
+    }
+    .cv-border {
+      border-left: 4px solid #ffffff; /* White border */
+    }
   }
+</style>
 
-  .project-title {
-    color: var(--text-primary);
-  }
+## 🧠 Research Interests
 
-  .project-meta {
-    color: var(--text-secondary);
-  }
+- Hardware Accelerators for Intelligent Systems  
+- Spiking Neural Network for Low-power Application  
+- Low-power, high-performance digital design  
+- Reconfigurable Hardware Architectures  
 
-  .project-description {
-    color: var(--text-muted);
-  }
-}
+<h2>🎓 Education</h2>
 
-
-    body {
-      font-family: sans-serif;
-      margin: 2rem;
-      background-color: transparent;
-      line-height: 1.6;
-    }
-
-    .section-header {
-      font-size: 1.5rem;
-      color: var(--text-primary);
-      font-weight: bold;
-      margin-bottom: 1rem;
-      border-bottom: 2px solid var(--section-border);
-      padding-bottom: 0.3rem;
-    }
-
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 20px;
-      margin-top: 20px;
-    }
-
-    .project-tile {
-      background-color: transparent;
-      padding: 16px;
-      border-radius: 12px;
-      border: 1px solid rgba(0, 0, 0, 0.1);
-      color: inherit;
-    }
-
-    .project-image {
-      width: 100%;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 8px;
-      background-color: #ccc;
-    }
-
-    .project-title {
-      font-size: 1.1em;
-      font-weight: bold;
-      margin-top: 0.5rem;
-      color: var(--text-primary);
-    }
-
-    .project-meta {
-      font-size: 0.9em;
-      color: var(--text-secondary);
-      margin-bottom: 0.5rem;
-    }
-
-    .project-description {
-      font-size: 1em;
-      color: var(--text-muted);
-    }
-  </style>
-</head>
-<body>
-
-<!-- <div class="section-header">🧪 Projects</div> -->
-<div class="projects-grid">
-  <div class="project-tile">
-<!--     <img class="project-image" src="/images/project_bd/block_diagram_navlsi.png" alt="HNN Architecture"> -->
-    <img class="project-image" src="{{ '/images/project_bd/block_diagram_navlsi.png' | relative_url }}" alt="HNN Architecture">
-    <div class="project-title">Hopfield Neural Network with AER for Maxcut Problem</div>
-    <div class="project-meta">Neuromorphic AVLSI Design | Mar–Apr 2025</div>
-    <div class="project-description">
-      Designed and simulated an HNN in Verilog for solving the Maxcut problem using Address Event Representation (AER) on an FPGA board.
-    </div>
-  </div>
-
-  <div class="project-tile">
-<!--     <img class="project-image" src="/images/project_bd/block_diagram_rgb.png" alt="RGB Filtering Architecture"> -->
-    <img class="project-image" src="{{ '/images/project_bd/block_diagram_rgb.png' | relative_url }}" alt="RGB Filtering Architecture">
-    <div class="project-title">RGB Image Filter & HDMI Display</div>
-    <div class="project-meta">Digital Systems Design with FPGA | Mar–Apr 2025</div>
-    <div class="project-description">
-      Implemented median filtering using two algorithms for noise removal and displayed processed images using HDMI output on PYNQ-Z2.
-    </div>
-  </div>
-
-  <div class="project-tile">
-<!--     <img class="project-image" src="/images/project_bd/block_diagram_spi.png" alt="SPI Architecture"> -->
-    <img class="project-image" src="{{ '/images/project_bd/block_diagram_spi.png' | relative_url }}" alt="SPI Architecture">
-    <div class="project-title">Serial Peripheral Interface (SPI) Controller</div>
-    <div class="project-meta">Digital Systems Design with FPGA | Mar 2025</div>
-    <div class="project-description">
-      Designed and simulated an FSM-based SPI Controller to interface between FPGA and block-RAM (BRAM).
-    </div>
-  </div>
-
-  <div class="project-tile">
-<!--     <img class="project-image" src="https://via.placeholder.com/120x80" alt="Project Image"> -->
-    <div class="project-title">Synchronous and Asynchronous FIFO Design</div>
-    <div class="project-meta"> Jun 2025</div>
-    <div class="project-description">
-      Designed and simulated a synchronous and an asynchronous FIFO for data transfer between two syncronous and asynchronous frequency domain, respectively.
-    </div>
-  </div>
-
-  <div class="project-tile">
-<!--     <img class="project-image" src="/images/project_bd/imu_openday.jpeg" alt="With our car"> -->
-    <img class="project-image" src="{{ '/images/project_bd/imu_openday.jpeg' | relative_url }}" alt="With our car">
-    <div class="project-title">IMU Sensor Controlled Car</div>
-    <div class="project-meta">Open Day Demo | Feb 2025</div>
-    <div class="project-description">
-      Gesture-controlled car using ESP32 and IMU. Servo-based steering, L298N motor driver for motion control.
-    </div>
-  </div>
-
-  <div class="project-tile">
-<!--     <img class="project-image" src="/images/project_bd/booth_mult.jpeg" alt="Layout of Booth Multiplier"> -->
-    <img class="project-image" src="{{ '/images/project_bd/booth_mult.jpeg' | relative_url }}" alt="Layout of Booth Multiplier">
-    <div class="project-title">16-bit Booth Multiplier with Power Gating</div>
-    <div class="project-meta">Digital VLSI | Nov–Dec 2024</div>
-    <div class="project-description">
-      Booth-encoded pipelined 16-bit multiplier using Wallace tree in Cadence Virtuoso. Optimized for power and area.
-    </div>
-  </div>
-
-  <div class="project-tile">
-<!--     <img class="project-image" src="https://via.placeholder.com/120x80" alt="Project Image"> -->
-    <div class="project-title">Air Quality Monitoring System</div>
-    <div class="project-meta">Undergrad Project | Sep–Dec 2022</div>
-    <div class="project-description">
-      Arduino-based gas sensor system with real-time dashboard built using HTML, CSS, and JavaScript.
-    </div>
-  </div>
+<div class="cv-border">
+  <span class="cv-highlight">2024 – Present</span><br>
+  <strong>M.Tech, Microelectronics and VLSI Design</strong><br>
+  <span><em>Indian Institute of Science (IISc), Bangalore</em></span><br>
+  <span>Advisor: Professor Chetan Singh Thakur</span><br>
+  <span>Thesis: Reconfigurable and Scalable Higher-order Ising Machine for Combinatorial Optimization Problems</span><br>
+  <span>CGPA: 9.41/10</span>
 </div>
 
-</body>
-</html>
+<div class="cv-border">
+  <span class="cv-highlight">2020 – 2024</span><br>
+  <strong>B.Tech, Electronics and Telecommunication Engineering</strong><br>
+  <span><em>Indian Institute of Engineering Science and Technology (IIEST), Shibpur</em></span><br>
+  <span>Thesis: <em>Spectrum Coexistence between GEO Satellites and 5G Systems</em></span><br>
+  <span>CGPA: 9.47/10</span>
+</div>
+
+<div class="cv-border">
+  <span class="cv-highlight">2020</span><br>
+  <strong>WBCHSE 2020</strong><br>
+  <span><em>Sri Narasingha Vidyapith, Darjeeling, West Bengal</em></span><br>
+  <span>Percentage: 98.8%</span>
+</div>
+
+<div class="cv-border">
+  <span class="cv-highlight">2018</span><br>
+  <strong>WBBSE 2018</strong><br>
+  <span><em>Bagdogra Balika Vidyalaya, Darjeeling, West Bengal</em></span><br>
+  <span>Percentage: 97.28%</span>
+</div>
+
+## 🧩 Positions of Responsibility
+
+<div class="cv-border">
+  <span class="cv-highlight">2025</span><br>
+  <strong>Webmaster</strong>, IEEE-IISc VLSI Chapter
+</div>
+
+<div class="cv-border">
+  <span class="cv-highlight">2023</span><br>
+  <strong>Organizer</strong>, Vaidyutak (Annual Tech Fest), Department of E&TCE, IIEST Shibpur
+</div>
+
+<div class="cv-border">
+  <span class="cv-highlight">2021</span><br>
+  <strong>Coding Tutor</strong>, Natun Pata (NGO)
+</div>
+
+## 🏅 Academic Honors
+
+<div class="cv-border">
+  <span class="cv-highlight">2025</span><br>
+  Selected as a <strong>Student Fellow</strong>, VLSID 2025
+</div>
+
+<div class="cv-border">
+  <span class="cv-highlight">2024</span><br>
+  Selected as <strong>Wells Fargo Women in Tech Scholarship</strong> Recipient
+</div>
+
+<div class="cv-border">
+  <span class="cv-highlight">2024</span><br>
+  Graduated with a departmental rank of <strong>3rd</strong> with a CGPA of 9.47, IIEST Shibpur
+</div>
+
+<div class="cv-border">
+  <span class="cv-highlight">2024</span><br>
+  Secured <strong>All India Rank 226</strong> in GATE 2024 Electronics and Communication
+</div>
+
+<div class="cv-border">
+  <span class="cv-highlight">2024</span><br>
+  Secured <strong>All India Rank 55</strong> in GATE 2024 Instrumentation
+</div>
+
+<div class="cv-border">
+  <span class="cv-highlight">2023</span><br>
+  Selected for <strong>TATA Steel INSPIRE Summer Internship</strong>
+</div>
+
+<div class="cv-border">
+  <span class="cv-highlight">2020</span><br>
+  Selected as a <strong>JBNSTS Senior Scholarship</strong> Recipient (Top 10 girls)
+</div>
+
+<div class="cv-border">
+  <span class="cv-highlight">2020</span><br>
+  Received accolades from the <strong>Chief Minister of West Bengal</strong> for securing 6th Rank in WBCHSE Board
+</div>
+
+<div class="cv-border">
+  <span class="cv-highlight">2018</span><br>
+  Received accolades from the <strong>Chief Minister of West Bengal</strong> for securing 9th Rank in WBBSE Board
+</div>

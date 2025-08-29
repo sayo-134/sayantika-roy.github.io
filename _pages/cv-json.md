@@ -1,3 +1,12 @@
+---
+title: "CV"
+permalink: /cv-json/
+author_profile: true
+redirected_from:
+    /cv/
+    /resume/
+---
+
 ## 🧠 Research Interests
 
 - Hardware Accelerators for Intelligent Systems

@@ -3,8 +3,8 @@ title: "CV"
 permalink: /cv-json/
 author_profile: true
 redirected_from:
-    /cv/
-    /resume/
+  - /cv/
+  - /resume/
 ---
 
 <style>

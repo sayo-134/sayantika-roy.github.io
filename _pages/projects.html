@@ -24,7 +24,7 @@ author_profile: true
       --section-border: #3498db;
     }
 
-    @media (prefers-color-scheme: dark) {
+/*     @media (prefers-color-scheme: dark) {
       :root {
         --timeline-line: #74b9ff;
         --timeline-dot: #74b9ff;
@@ -33,7 +33,35 @@ author_profile: true
         --text-muted: #95a5a6;
         --section-border: #74b9ff;
       }
-    }
+    } */
+    @media (prefers-color-scheme: dark) {
+  :root {
+    --timeline-line: #74b9ff;
+    --timeline-dot: #74b9ff;
+    --text-primary: #ffffff;   /* pure white */
+    --text-secondary: #dcdcdc; /* lighter gray */
+    --text-muted: #aaaaaa;     /* softer gray */
+    --section-border: #74b9ff;
+  }
+
+  body {
+    background-color: #121212; /* optional: darker bg */
+    color: var(--text-primary);
+  }
+
+  .project-title {
+    color: var(--text-primary);
+  }
+
+  .project-meta {
+    color: var(--text-secondary);
+  }
+
+  .project-description {
+    color: var(--text-muted);
+  }
+}
+
 
     body {
       font-family: sans-serif;

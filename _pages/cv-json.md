@@ -71,64 +71,20 @@ redirected_from:
 
 ## 🧩 Positions of Responsibility
 
-<div class="cv-border">
-  <span class="cv-highlight">2025</span><br>
-  <strong>Webmaster</strong>, IEEE-IISc VLSI Chapter
-</div>
+- **2025** — Webmaster, IEEE-IISc VLSI Chapter  
+- **2023** — Organizer, *Vaidyutak* (Annual Tech Fest), Department of E&TCE, IIEST Shibpur  
+- **2021** — Coding Tutor, Natun Pata (NGO)  
 
-<div class="cv-border">
-  <span class="cv-highlight">2023</span><br>
-  <strong>Organizer</strong>, Vaidyutak (Annual Tech Fest), Department of E&TCE, IIEST Shibpur
-</div>
-
-<div class="cv-border">
-  <span class="cv-highlight">2021</span><br>
-  <strong>Coding Tutor</strong>, Natun Pata (NGO)
-</div>
+---
 
 ## 🏅 Academic Honors
 
-<div class="cv-border">
-  <span class="cv-highlight">2025</span><br>
-  Selected as a <strong>Student Fellow</strong>, VLSID 2025
-</div>
-
-<div class="cv-border">
-  <span class="cv-highlight">2024</span><br>
-  Selected as <strong>Wells Fargo Women in Tech Scholarship</strong> Recipient
-</div>
-
-<div class="cv-border">
-  <span class="cv-highlight">2024</span><br>
-  Graduated with a departmental rank of <strong>3rd</strong> with a CGPA of 9.47, IIEST Shibpur
-</div>
-
-<div class="cv-border">
-  <span class="cv-highlight">2024</span><br>
-  Secured <strong>All India Rank 226</strong> in GATE 2024 Electronics and Communication
-</div>
-
-<div class="cv-border">
-  <span class="cv-highlight">2024</span><br>
-  Secured <strong>All India Rank 55</strong> in GATE 2024 Instrumentation
-</div>
-
-<div class="cv-border">
-  <span class="cv-highlight">2023</span><br>
-  Selected for <strong>TATA Steel INSPIRE Summer Internship</strong>
-</div>
-
-<div class="cv-border">
-  <span class="cv-highlight">2020</span><br>
-  Selected as a <strong>JBNSTS Senior Scholarship</strong> Recipient (Top 10 girls)
-</div>
-
-<div class="cv-border">
-  <span class="cv-highlight">2020</span><br>
-  Received accolades from the <strong>Chief Minister of West Bengal</strong> for securing 6th Rank in WBCHSE Board
-</div>
-
-<div class="cv-border">
-  <span class="cv-highlight">2018</span><br>
-  Received accolades from the <strong>Chief Minister of West Bengal</strong> for securing 9th Rank in WBBSE Board
-</div>
+- **2025** — Selected as a Student Fellow, VLSID 2025  
+- **2024** — Selected as **Wells Fargo Women in Tech Scholarship** Recipient  
+- **2024** — Graduated with a departmental rank of 3rd with a CGPA of 9.47, IIEST Shibpur  
+- **2024** — Secured All India Rank **226** in GATE 2024 (Electronics and Communication)  
+- **2024** — Secured All India Rank **55** in GATE 2024 (Instrumentation)  
+- **2023** — Selected for **TATA Steel INSPIRE Summer Internship**  
+- **2020** — Selected as **JBNSTS Senior Scholarship** Recipient (one of the **top 10 girls**)  
+- **2020** — Received accolades from the Chief Minister of West Bengal for securing **6th Rank** in WBCHSE Board  
+- **2018** — Received accolades from the Chief Minister of West Bengal for securing **9th Rank** in WBBSE Board  

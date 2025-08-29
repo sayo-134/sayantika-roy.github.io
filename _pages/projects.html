@@ -101,7 +101,7 @@ author_profile: true
 
     </style>
 </head>
-<body class="p-8 dark">
+<body class="p-8">
     <button id="theme-toggle" class="fixed top-4 right-4 p-2 rounded-full shadow-lg bg-gray-800 text-gray-200 dark:bg-gray-200 dark:text-gray-800 transition-colors">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -132,11 +132,10 @@ author_profile: true
         const currentTheme = localStorage.getItem('theme');
             if (currentTheme) {
                 body.classList.add(currentTheme);
-            } else if (prefersDarkScheme.matches) {
-                body.classList.add('dark');
             } else {
-                body.classList.add('light');
+                body.classList.add('light'); // always default to light
             }
+
 
         const projects = [
             {
@@ -145,7 +144,7 @@ author_profile: true
                 summary: 'An implementation of a real-time operating system with process scheduling, memory management, and inter-process communication.',
                 cardImage: 'https://placehold.co/400x200/58a6ff/0d1117?text=OS+Project',
                 detailImage: 'https://placehold.co/800x400/58a6ff/0d1117?text=Real-time+OS',
-                content: `
+                content: 
 <h1>Project 1: Real-time Operating System</h1>
 <img src="https://placehold.co/800x400/58a6ff/0d1117?text=Real-time+OS" alt="Real-time OS Diagram" class="project-image">
 <h3>Introduction</h3>
@@ -162,7 +161,7 @@ author_profile: true
     <li><strong>Platform:</strong> ARM Cortex-M4 microcontroller</li>
     <li><strong>Tools:</strong> Keil uVision, ST-Link debugger</li>
 </ul>
-`
+
             },
             {
                 id: 'project-2',

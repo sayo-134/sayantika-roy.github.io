@@ -71,20 +71,25 @@ redirected_from:
 
 ## 🧩 Positions of Responsibility
 
-- **2025** — Webmaster, IEEE-IISc VLSI Chapter  
-- **2023** — Organizer, *Vaidyutak* (Annual Tech Fest), Department of E&TCE, IIEST Shibpur  
-- **2021** — Coding Tutor, Natun Pata (NGO)  
+| Year | Description |
+|------|-------------|
+| 2025 | Webmaster, IEEE-IISc VLSI Chapter |
+| 2023 | Organizer, *Vaidyutak* (Annual Tech Fest), Department of E&TCE, IIEST Shibpur |
+| 2021 | Coding Tutor, Natun Pata (NGO) |
 
 ---
 
 ## 🏅 Academic Honors
 
-- **2025** — Selected as a Student Fellow, VLSID 2025  
-- **2024** — Selected as **Wells Fargo Women in Tech Scholarship** Recipient  
-- **2024** — Graduated with a departmental rank of 3rd with a CGPA of 9.47, IIEST Shibpur  
-- **2024** — Secured All India Rank **226** in GATE 2024 (Electronics and Communication)  
-- **2024** — Secured All India Rank **55** in GATE 2024 (Instrumentation)  
-- **2023** — Selected for **TATA Steel INSPIRE Summer Internship**  
-- **2020** — Selected as **JBNSTS Senior Scholarship** Recipient (one of the **top 10 girls**)  
-- **2020** — Received accolades from the Chief Minister of West Bengal for securing **6th Rank** in WBCHSE Board  
-- **2018** — Received accolades from the Chief Minister of West Bengal for securing **9th Rank** in WBBSE Board  
+| Year | Description |
+|------|-------------|
+| 2025 | Selected as a Student Fellow, VLSID 2025 |
+| 2024 | Selected as **Wells Fargo Women in Tech Scholarship** Recipient |
+| 2024 | Graduated with a departmental rank of 3rd with a CGPA of 9.47, IIEST Shibpur |
+| 2024 | Secured All India Rank **226** in GATE 2024 (Electronics and Communication) |
+| 2024 | Secured All India Rank **55** in GATE 2024 (Instrumentation) |
+| 2023 | Selected for **TATA Steel INSPIRE Summer Internship** |
+| 2020 | Selected as **JBNSTS Senior Scholarship** Recipient (one of the **top 10 girls**) |
+| 2020 | Received accolades from the Chief Minister of West Bengal for securing **6th Rank** in WBCHSE Board |
+| 2018 | Received accolades from the Chief Minister of West Bengal for securing **9th Rank** in WBBSE Board |
+

@@ -43,6 +43,8 @@ redirected_from:
 - Low-power, high-performance digital design
 - Reconfigurable Hardware Architectures
 
+---
+
 <h2>🎓 Education</h2> 
   <div style="border-left: 4px solid #3E82FC; padding-left: 15px; margin-bottom: 1.5em;"> 
     <span style="color: #3E82FC; font-weight: 500;">2024 – Present</span><br> 
@@ -70,7 +72,8 @@ redirected_from:
       <strong>WBBSE 2018</strong><br> 
       <span><em>Bagdogra Balika Vidyalaya, Darjeeling, West Bengal</em></span><br> 
       <span>Percentage: 97.28%</span> 
-    </div>
+  </div>
+---
 
 ## 🧩 Positions of Responsibility
 
@@ -115,3 +118,4 @@ redirected_from:
 <div class="cv-entry">
   <span class="cv-year">2018</span> Received accolades from the Chief Minister of West Bengal for securing <strong>9th Rank</strong> in WBBSE Board
 </div>
+---

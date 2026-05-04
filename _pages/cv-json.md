@@ -77,8 +77,15 @@ redirected_from:
 
 ## 🧩 Positions of Responsibility
 
+<div>
+  <span class="cv-entry">2026</span> Teaching Assistant, Neuromorphic Analog VLSI Design
+</div>
 <div class="cv-entry">
-  <span class="cv-year">2025</span> Webmaster, IEEE-IISc VLSI Chapter
+  <span class="cv-year">2025</span> Vice Chair, IEEE-IISc VLSI Chapter
+</div>
+
+<div class="cv-entry">
+  <span class="cv-year">2024</span> Webmaster, IEEE-IISc VLSI Chapter
 </div>
 <div class="cv-entry">
   <span class="cv-year">2023</span> Organizer, <strong>Vaidyutak</strong> (Annual Tech Fest), Department of E&TCE, IIEST Shibpur

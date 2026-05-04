@@ -163,115 +163,133 @@ body {
 const projects = [
 {
     id: 'project-1',
-    title: 'Real-time Operating System',
-    summary: 'RTOS with scheduling, memory management, and IPC.',
+    title: '5-stage Pipelined RISC-V Processor Design',
+    summary: 'A 32-bit, 5-stage pipelined RISC-V Processor deployed on Basys3 FPGA Board.',
     cardImage: 'https://placehold.co/400x200',
     content: `
         <img src="https://placehold.co/800x400" class="project-image">
 
         <h3>Introduction</h3>
-        <p>This project implements a basic RTOS from scratch.</p>
+        <p>This project implements a 5-stage pipelined RISC-V processor using Verilog and is deployed on a Basys3 FPGA Board.</p>
 
         <h3>Features</h3>
         <ul>
-            <li>Preemptive scheduling</li>
-            <li>Memory allocation</li>
-            <li>IPC</li>
+            <li>Includes hazard detection and forwarding-stalling units, static branch prediction</li>
+            <li>Includes Level-1 Direct-Mapped Instruction Cache with the instruction memory</li>
+            <li>Maximum Frequency = 66.7 MHz</li>
+            
         </ul>
     `
 },
 {
     id: 'project-2',
-    title: 'Web Application Development',
-    summary: 'A full-stack web application built with React and Node.js.',
+    title: '16-bit Multi-Cycle CISC Processor Design',
+    summary: 'A 16-bit multi-cycle CISC processor implemented in Verilog and deployed on Basys3 FPGA Board.',
     cardImage: 'https://placehold.co/400x200',
     content: `
         <img src="https://placehold.co/800x400" class="project-image">
 
         <h3>Introduction</h3>
-        <p>This project implements a basic RTOS from scratch.</p>
+        <p>This project implements a 16-bit multi-cycle CISC processor using Verilog and is deployed on a Basys3 FPGA Board.</p>
 
         <h3>Features</h3>
         <ul>
-            <li>Preemptive scheduling</li>
-            <li>Memory allocation</li>
-            <li>IPC</li>
+            <li>Supported Instructions: Add, Shift-Left, Rotate Right through Carry, Branch, Load, Store</li>
+            <li>Tested by multiplying two 8-bit numbers and displayed using 7-segment display of the Basys3 FPGA Board</li>
+            <li>Maximum Frequency = 100 MHz</li>
         </ul>
     `
 },
 {
     id: 'project-3',
-    title: 'Real-time Operating System',
-    summary: 'RTOS with scheduling, memory management, and IPC.',
+    title: 'Higher-Order Neuromorphic Ising Machine Implementation using Asynchronous Circuit Toolchain',
+    summary: 'A neuromorphic computing implementation using asynchronous circuits.',
     cardImage: 'https://placehold.co/400x200',
     content: `
         <img src="https://placehold.co/800x400" class="project-image">
 
         <h3>Introduction</h3>
-        <p>This project implements a basic RTOS from scratch.</p>
+        <p>This project implements a higher-order neuromorphic Ising machine using asynchronous circuit toolchain.</p>
 
         <h3>Features</h3>
         <ul>
-            <li>Preemptive scheduling</li>
-            <li>Memory allocation</li>
-            <li>IPC</li>
+            <li>Solves a fixed 5-node Max-cut Problem</li>
+            <li>A part of 2nd Bangalore Neuromorphic Engineering Workshop (BNEW) 2026</li>
         </ul>
     `
 },
 {
     id: 'project-4',
-    title: 'Mobile App Development',
-    summary: 'A cross-platform mobile application built with React Native.',
+    title: 'Hopfield Neural Network with AER for solving Max-cut Problems',
+    summary: 'A HNN implementation using Address Event Representation (AER) for solving Max-cut problems on Basys3 FPGA Board.',
     cardImage: 'https://placehold.co/400x200',
     content: `
         <img src="https://placehold.co/800x400" class="project-image">
 
         <h3>Introduction</h3>
-        <p>This project implements a basic RTOS from scratch.</p>
+        <p>This project implements a Hopfield Neural Network using Address Event Representation (AER) for solving Max-cut problems on a Basys3 FPGA Board.</p>
 
         <h3>Features</h3>
         <ul>
-            <li>Preemptive scheduling</li>
-            <li>Memory allocation</li>
-            <li>IPC</li>
+            <li>Implements AR protocol to achieve efficient and scalable neuron-to-neuron communication</li>
+            <li>Maximum Frequency = 66 MHz</li>
         </ul>
     `
 },
 {
     id: 'project-5',
-    title: 'Data Visualization Dashboard',
-    summary: 'A responsive dashboard for visualizing complex datasets.',
+    title: 'RGB Image Filtering Implementation with HDMI Display on Pynq- Z1 FPGA Board',
+    summary: 'An RGB image filtering implementation with HDMI display on Pynq- Z1 FPGA Board.',
     cardImage: 'https://placehold.co/400x200',
     content: `
         <img src="https://placehold.co/800x400" class="project-image">
 
         <h3>Introduction</h3>
-        <p>This project implements a basic RTOS from scratch.</p>
+        <p>This project implements an RGB image filtering implementation with HDMI display on Pynq- Z1 FPGA Board.</p>
 
         <h3>Features</h3>
         <ul>
-            <li>Preemptive scheduling</li>
-            <li>Memory allocation</li>
-            <li>IPC</li>
+            <li>Median Fitering using Fast Median and Bit Voting Algorithm to remove Salt and Pepper Noise</li>
+            <li>Includes HDMI display functionality</li>
+            <li>Maximum Frequency = 102 MHz and 103 MHz respectively</li>
         </ul>
     `
 },
 {
     id: 'project-6',
-    title: 'Real-time Operating System',
-    summary: 'RTOS with scheduling, memory management, and IPC.',
+    title: 'Serial Peripheral Interface (SPI) Controller',
+    summary: 'A hardware implementation of the SPI protocol for communication with external devices.',
     cardImage: 'https://placehold.co/400x200',
     content: `
         <img src="https://placehold.co/800x400" class="project-image">
 
         <h3>Introduction</h3>
-        <p>This project implements a basic RTOS from scratch.</p>
+        <p>This project implements a SPI controller for communication with external devices.</p>
 
         <h3>Features</h3>
         <ul>
-            <li>Preemptive scheduling</li>
-            <li>Memory allocation</li>
-            <li>IPC</li>
+            <li>Supports sequential read/write operation on on-chip BRAM from the SPI interface</li>
+            <li>Maximum Frequency = 91 MHz</li>
+        </ul>
+    `
+},
+{
+    id: 'project-7',
+    title: '16-bit Pipelined Radix-4 Signed/Unsigned Booth Multiplier',
+    summary: 'A Cadence Virtuoso implementation of a 16-bit pipelined Radix-4 signed/unsigned Booth multiplier.',
+    cardImage: 'https://placehold.co/400x200',
+    content: `
+        <img src="https://placehold.co/800x400" class="project-image">
+
+        <h3>Introduction</h3>
+        <p>This project implements a 16-bit pipelined Radix-4 signed/unsigned Booth multiplier using Cadence Virtuoso.</p>
+
+        <h3>Features</h3>
+        <ul>
+            <li>Two-stage pipeline</li>
+            <li>Incorporated Power Gating for less leakage power consumption</li>
+            <li>Full custom layout</li>
+            <li>Maximum Frequency = 250 MHz, Power = 1.22mW on-power and 104nW off-power at TT Process Corner</li>
         </ul>
     `
 }

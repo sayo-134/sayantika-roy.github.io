@@ -51,8 +51,8 @@ redirected_from:
     <strong>M.Tech, Microelectronics and VLSI Design</strong><br> 
     <span><em>Indian Institute of Science (IISc), Bangalore</em></span><br> 
     <span>Advisor: Professor Chetan Singh Thakur</span><br> 
-    <span>Thesis: Reconfigurable and Scalable Higher-order Ising Machine for Combinatorial Optimization Problems</span><br> 
-    <span>CGPA: 9.41/10</span> 
+    <span>Thesis: Reconfigurable and Scalable Higher-order Neuromorphic Ising Machine for Combinatorial Optimization Problems</span><br> 
+    <span>CGPA: 9.3/10</span> 
   </div> 
   <div style="border-left: 4px solid #3E82FC; padding-left: 15px; margin-bottom: 1.5em;"> 
     <span style="color: #3E82FC; font-weight: 500;">2020 – 2024</span><br> 

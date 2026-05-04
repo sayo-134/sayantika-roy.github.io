@@ -141,7 +141,15 @@ html, body {
 </div>
 
 <script>
+
+
+const detail = document.getElementById("project-detail");
+const list = document.getElementById("project-list");
+const title = document.getElementById("project-title");
+const content = document.getElementById("project-content");    
+
 document.addEventListener("DOMContentLoaded", function () {
+    const grid = document.getElementById("project-grid");
     const projects = [
         {
             id: 'project-1',
@@ -302,12 +310,12 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     ];
 
-    const grid = document.getElementById("project-grid");
-    const detail = document.getElementById("project-detail");
-    const list = document.getElementById("project-list");
+    // const grid = document.getElementById("project-grid");
+    // const detail = document.getElementById("project-detail");
+    // const list = document.getElementById("project-list");
 
-    const title = document.getElementById("project-title");
-    const content = document.getElementById("project-content");
+    // const title = document.getElementById("project-title");
+    // const content = document.getElementById("project-content");
 
     projects.forEach(p => {
         const card = document.createElement("div");

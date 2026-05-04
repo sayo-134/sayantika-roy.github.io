@@ -1,3 +1,4 @@
+
 ---
 layout: archive
 title: "Projects"
@@ -22,7 +23,7 @@ author_profile: true
 }
 
 body.dark {
-    --bg-color: #0d1117;
+    --bg-color: #0d1117 !important;
     --text-color: #c9d1d9;
     --muted-text: #8b949e;
     --card-bg: #161b22;
@@ -32,10 +33,10 @@ body.dark {
     --link-color: #58a6ff;
 }
 
-body {
+html, body {
     font-family: 'Inter', sans-serif;
-    background: var(--bg-color);
-    color: var(--text-color);
+    background: var(--bg-color) !important;
+    color: var(--text-color) !important;
 }
 
 /* GRID */
@@ -148,7 +149,19 @@ const projects = [
         summary: 'A 32-bit, 5-stage pipelined RISC-V Processor deployed on Basys3 FPGA Board.',
         cardImage: 'https://placehold.co/400x200',
         reportLink: `https://drive.google.com/file/d/1bW-GHcoLQFmdqhAaoFF5XAE_aAVngoso/view?usp=sharing`,
-        content: `...`
+        content: `
+            <img src="https://placehold.co/800x400" class="project-image">
+
+            <h3>Introduction</h3>
+            <p>This project implements a 5-stage pipelined RISC-V processor using Verilog and is deployed on a Basys3 FPGA Board.</p>
+
+            <h3>Features</h3>
+            <ul>
+                <li>Includes hazard detection and forwarding-stalling units, static branch prediction</li>
+                <li>Includes Level-1 Direct-Mapped Instruction Cache with the instruction memory</li>
+                <li>Maximum Frequency = 66.7 MHz</li>
+            </ul>
+        `
     },
     {
         id: 'project-2',
@@ -156,46 +169,136 @@ const projects = [
         summary: 'A 16-bit multi-cycle CISC processor implemented in Verilog and deployed on Basys3 FPGA Board.',
         cardImage: 'https://placehold.co/400x200',
         reportLink: `https://drive.google.com/file/d/1oBWfhdKV-ZTHbacefnArxMnNZ6lxaMfm/view?usp=sharing`,
-        content: `...`
+        content: `
+            <img src="https://placehold.co/800x400" class="project-image">
+
+            <h3>Introduction</h3>
+            <p>This project implements a 16-bit multi-cycle CISC processor using Verilog and is deployed on a Basys3 FPGA Board.</p>
+
+            <h3>Features</h3>
+            <ul>
+                <li>Supported Instructions: Add, Shift-Left, Rotate Right through Carry, Branch, Load, Store</li>
+                <li>Tested by multiplying two 8-bit numbers and displayed using 7-segment display of the Basys3 FPGA Board</li>
+                <li>Maximum Frequency = 100 MHz</li>
+            </ul>
+        `
     },
+    // {
+    //     id: 'project-3',
+    //     title: 'Higher-Order Neuromorphic Ising Machine Implementation using Asynchronous Circuit Toolchain',
+    //     summary: 'A neuromorphic computing implementation using asynchronous circuits.',
+    //     cardImage: 'https://placehold.co/400x200',
+    //     content: `
+    //         <img src="https://placehold.co/800x400" class="project-image">
+
+    //         <h3>Introduction</h3>
+    //         <p>This project implements a higher-order neuromorphic Ising machine using asynchronous circuit toolchain.</p>
+
+    //         <h3>Features</h3>
+    //         <ul>
+    //             <li>Solves a fixed 5-node Max-cut Problem</li>
+    //             <li>A part of 2nd Bangalore Neuromorphic Engineering Workshop (BNEW) 2026</li>
+    //         </ul>
+    //     `
+    // },
     {
         id: 'project-3',
         title: 'Hopfield Neural Network with AER for solving Max-cut Problems',
-        summary: 'A HNN implementation using Address Event Representation (AER).',
+        summary: 'A HNN implementation using Address Event Representation (AER) for solving Max-cut problems on Basys3 FPGA Board.',
         cardImage: 'https://placehold.co/400x200',
         reportLink: `https://drive.google.com/file/d/1gPgPMzPiseQPVSkwUiXxilkvjWukkrGB/view?usp=sharing`,
-        content: `...`
+        content: `
+            <img src="https://placehold.co/800x400" class="project-image">
+
+            <h3>Introduction</h3>
+            <p>This project implements a Hopfield Neural Network using Address Event Representation (AER) for solving Max-cut problems on a Basys3 FPGA Board.</p>
+
+            <h3>Features</h3>
+            <ul>
+                <li>Implements AR protocol to achieve efficient and scalable neuron-to-neuron communication</li>
+                <li>Maximum Frequency = 66 MHz</li>
+            </ul>
+        `
     },
     {
         id: 'project-4',
-        title: 'RGB Image Filtering Implementation with HDMI Display',
-        summary: 'RGB image filtering with HDMI output on Pynq Z1.',
+        title: 'RGB Image Filtering Implementation with HDMI Display on Pynq- Z1 FPGA Board',
+        summary: 'An RGB image filtering implementation with HDMI display on Pynq- Z1 FPGA Board.',
         cardImage: 'https://placehold.co/400x200',
         reportLink: `https://drive.google.com/file/d/1fNbAf4MgRxfRLfBULAC_FZTKvdhO-Voc/view?usp=sharing`,
-        content: `...`
+        content: `
+            <img src="https://placehold.co/800x400" class="project-image">
+
+            <h3>Introduction</h3>
+            <p>This project implements an RGB image filtering implementation with HDMI display on Pynq- Z1 FPGA Board.</p>
+
+            <h3>Features</h3>
+            <ul>
+                <li>Median Fitering using Fast Median and Bit Voting Algorithm to remove Salt and Pepper Noise</li>
+                <li>Includes HDMI display functionality</li>
+                <li>Maximum Frequency = 102 MHz and 103 MHz respectively</li>
+            </ul>
+        `
     },
     {
         id: 'project-5',
-        title: 'SPI Controller',
-        summary: 'SPI protocol implementation for communication.',
+        title: 'Serial Peripheral Interface (SPI) Controller',
+        summary: 'A hardware implementation of the SPI protocol for communication with external devices.',
         cardImage: 'https://placehold.co/400x200',
         reportLink: `https://drive.google.com/file/d/1i1vMGepqPrHz_vlKXoBDGtbDw1Ulqn4L/view?usp=sharing`,
-        content: `...`
+        content: `
+            <img src="https://placehold.co/800x400" class="project-image">
+
+            <h3>Introduction</h3>
+            <p>This project implements a SPI controller for communication with external devices.</p>
+
+            <h3>Features</h3>
+            <ul>
+                <li>Supports sequential read/write operation on on-chip BRAM from the SPI interface</li>
+                <li>Maximum Frequency = 91 MHz</li>
+            </ul>
+        `
     },
     {
         id: 'project-6',
-        title: 'Radix-4 Booth Multiplier',
-        summary: '16-bit pipelined multiplier in Cadence.',
+        title: '16-bit Pipelined Radix-4 Signed/Unsigned Booth Multiplier',
+        summary: 'A Cadence Virtuoso implementation of a 16-bit pipelined Radix-4 signed/unsigned Booth multiplier.',
         cardImage: 'https://placehold.co/400x200',
         reportLink: `https://drive.google.com/file/d/1Pta7Nhsla7cjnECiPq5cuObFAh3U5DZC/view?usp=sharing`,
-        content: `...`
+        content: `
+            <img src="https://placehold.co/800x400" class="project-image">
+
+            <h3>Introduction</h3>
+            <p>This project implements a 16-bit pipelined Radix-4 signed/unsigned Booth multiplier using Cadence Virtuoso.</p>
+
+            <h3>Features</h3>
+            <ul>
+                <li>Two-stage pipeline</li>
+                <li>Incorporated Power Gating for less leakage power consumption</li>
+                <li>Full custom layout</li>
+                <li>Maximum Frequency = 250 MHz, Power = 1.22mW on-power and 104nW off-power at TT Process Corner</li>
+            </ul>
+        `
     },
     {
         id: 'project-7',
         title: 'IMU Sensor Controlled Car',
-        summary: 'Car controlled using IMU and ESP32.',
+        summary: 'A car controlled by an Inertial Measurement Unit (IMU) sensor for motion detection and control.',
         cardImage: 'https://placehold.co/400x200',
-        content: `...`
+        content: `
+            <img src="https://placehold.co/800x400" class="project-image">
+
+            <h3>Introduction</h3>
+            <p>This project implements a car controlled by an Inertial Measurement Unit (IMU) sensor for motion detection and control.</p>
+
+            <h3>Features</h3>
+            <ul>
+                <li>IMU sensor integration with ESP32 Microcontroller and L298N Motor Driver</li>
+                <li>Real-time motion detection</li>
+                <li>Tilt-based control</li>
+                <li>Wi-Fi connecitivity between the car and the remote control</li>
+            </ul>
+        `
     }
 ];
 
@@ -242,9 +345,20 @@ function goBack() {
 
 function toggleTheme() {
     document.body.classList.toggle("dark");
-    localStorage.setItem("theme", document.body.classList.contains("dark") ? "dark" : "light");
+
+    const isDark = document.body.classList.contains("dark");
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+
+    // 🔥 force repaint
+    document.body.style.display = "none";
+    document.body.offsetHeight; // trigger reflow
+    document.body.style.display = "";
 }
 
 const saved = localStorage.getItem("theme");
-if (saved === "dark") document.body.classList.add("dark");
+if (saved === "dark") {
+    document.body.classList.add("dark");
+} else {
+    document.body.classList.remove("dark");
+}
 </script>
